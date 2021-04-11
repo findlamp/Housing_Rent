@@ -8,9 +8,9 @@ class Config(object):
     SECRET_KEY = "finalProjectGYL123@"
 
     # 数据库
-    SQLALCHEMY_DATABASE_URI = "mysql://FinalProjectGYL:mysql@134.209.169.96:3306/FinalProjectGYL"
-    SQLALCHEMY_TRACK_MODIFICATIONS = True
-
+    SQLALCHEMY_DATABASE_URI = "mysql://FinalProjectGLY:finalProject123%40@134.209.169.96:3306/FinalProjectGLY"
+    SQLALCHEMY_TRACK_MODIFICATIONS = True # trace the model automatically
+    SQLALCHEMY_ECHO = True # print executed sql
     # redis
     REDIS_HOST = "127.0.0.1"
     REDIS_PORT = 6379

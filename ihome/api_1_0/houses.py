@@ -27,6 +27,7 @@ def get_area_info():
 
     # 查询数据库，读取城区信息
     try:
+        print('查询数据库 读取信息')
         area_li = Area.query.all()
     except Exception as e:
         current_app.logger.error(e)

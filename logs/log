@@ -2254,3 +2254,875 @@ INFO _internal.py:113  * Restarting with windowsapi reloader
 WARNING _internal.py:113  * Debugger is active!
 INFO _internal.py:113  * Debugger PIN: 215-594-740
 INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\security.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\hmac.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\cwp.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\stringprep.cpython-38.pyc', reloading
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\utils.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\_compat.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__future__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\os.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\pool\\base.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\logging.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\typing.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\autopep8.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\configobj.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\contextlib2.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\cycler.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\cython.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\decorator.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\easy_install.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\editor.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\entrypoints.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\filelock.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\heapdict.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\imagesize.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\ipykernel_launcher.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\isympy.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\jdcal.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\jupyter.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\mccabe.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\mistune.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\nest_asyncio.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pandocfilters.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pep8.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pickleshare.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pycodestyle.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylab.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pyparsing.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pythoncom.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\readline.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\run.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\simplegeneric.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\singledispatch.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\singledispatch_helpers.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sipconfig.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sipdistutils.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\six.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\socks.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sockshandler.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\termcolor.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\test_pycosat.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\threadpoolctl.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\typing_extensions.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\validate.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\vtk.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wincertstore.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win_inet_pton.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\xmltodict.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\zipp.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\_pyrsistent_version.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\_version.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\adodbapi.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\ado_consts.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\is64bit.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\schema_table.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\examples\\db_print.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\examples\\db_table_names.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\examples\\xls_read.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\examples\\xls_write.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\adodbapitest.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\adodbapitestconfig.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\dbapi20.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\is64bit.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\setuptestframework.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\test_adodbapi_dbapi20.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\tryconnection2.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\adodbapi\\test\\tryconnection3.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alabaster\\support.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alabaster\\_version.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alabaster\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\command.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\context.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\op.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\__main__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\autogenerate\\api.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\alembic\\autogenerate\\compare.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\runpy.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__pkginfo__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__main__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__pycache__\\check_parallel.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\reporters\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__pycache__\\ast_walker.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\wrappers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\decorators.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\importer.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\__pkginfo__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\_version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\nodes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\node_classes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\as_string.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\bases.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\context.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\manager.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\spec.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\imp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\zipfile.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\plistlib.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\parsers\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\parsers\\__pycache__\\expat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\extern\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\appdirs.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32com\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\__pycache__\\pythoncom.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32\\lib\\__pycache__\\pywintypes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\_py_abc.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\pydoc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pydoc_data\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pydoc_data\\__pycache__\\topics.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\filecmp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_session\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\csrf.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\logging\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\logging\\handlers.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\routing.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\warnings.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\exceptions.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\wsgiref\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\redis\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\__init__.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\cli.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\click\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\click\\core.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\click\\exceptions.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\click\\types.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\demo.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\orders.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\utils\\commons.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\web_html.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\redis\\client.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\redis\\_compat.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\encodings\\__pycache__\\utf_16_le.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:23:14] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-38.pyc', reloading
+ERROR houses.py:252 No module named 'MySQLdb'
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:23:14] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+ERROR houses.py:32 No module named 'MySQLdb'
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:23:14] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\wrappers\\json.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\wrappers\\json.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\pay.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\pay.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\libs\\yuntongxun\\CCPRestSDK.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\libs\\yuntongxun\\CCPRestSDK.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\libs\\yuntongxun\\xmltojson.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\libs\\yuntongxun\\xmltojson.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\main.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\main.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\task_sms.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\task_sms.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\sms\\tasks.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\tasks\\sms\\tasks.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\utils\\captcha\\captcha.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\utils\\captcha\\captcha.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\demo.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\demo.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\json\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\json\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\orm\\scoping.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\orm\\scoping.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\json\\encoder.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\json\\encoder.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\sre_parse.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\sre_parse.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\sre_constants.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\sre_constants.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\enum.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\enum.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\sre_compile.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\sre_compile.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\_strptime.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\app.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\app.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\utils\\response_code.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\stringprep.cpython-38.pyc', reloading
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\datetime.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\datetime.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\constants.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\constants.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\types.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\types.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_migrate\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_migrate\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\cli.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\cli.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\commands.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\commands.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\_compat.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_script\\_compat.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\util\\_preloaded.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\util\\_preloaded.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\ext\\declarative\\base.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\ext\\declarative\\base.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\util\\topological.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\util\\topological.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\model.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\model.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\fields.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\fields.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\validators.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\validators.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\widgets.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_wtf\\recaptcha\\widgets.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\copy.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\copy.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\copyreg.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\copyreg.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\hmac.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\hmac.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\manage.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\manage.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\models.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:38:03] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+ERROR houses.py:253 No module named 'MySQLdb'
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:38:03] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+ERROR houses.py:33 No module named 'MySQLdb'
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:38:03] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\socket.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\ssl.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\queue.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Scripts\\pip-script.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\inject_securetransport.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\main.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\autocompletion.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\main_parser.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\cmdoptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\progress_bars.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\six.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\progress\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\progress\\__pycache__\\bar.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\progress\\__pycache__\\spinner.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\compat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\logging.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\deprecation.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\__about__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\_structures.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\_typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\misc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pip\\_vendor\\pkg_resources\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\encodings\\__pycache__\\cp437.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\_distutils_hack\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\_distutils_hack\\__pycache__\\override.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\__pycache__\\_deprecation_warning.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\__pycache__\\version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\__pycache__\\extension.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\__pycache__\\monkey.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\filelist.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\__pycache__\\dist.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\command\\__pycache__\\clean.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\setuptools\\command\\__pycache__\\install.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\_strptime.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Scripts\\pip3-script.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\connections.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\converters.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\cursors.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\release.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\times.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\_exceptions.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\CLIENT.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\CR.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\ER.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\FIELD_TYPE.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\FLAG.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\CLIENT.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\CR.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\ER.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FIELD_TYPE.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FLAG.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\connections.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\converters.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\cursors.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\release.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\times.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\_exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:43:00] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\engine\\base.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\engine\\default.py', reloading
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:43:00] "[35m[1mGET /api/v1.0/houses/index HTTP/1.1[0m" 500 -
+ERROR houses.py:33 (MySQLdb._exceptions.OperationalError) (1045, "Access denied for user 'FinalProjectGYL'@'71.116.60.222' (using password: YES)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:43:00] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:45:07] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:45:07] "[35m[1mGET /api/v1.0/houses/index HTTP/1.1[0m" 500 -
+ERROR houses.py:33 (MySQLdb._exceptions.OperationalError) (1045, "Access denied for user 'FinalProjectGYL'@'71.116.60.222' (using password: YES)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:45:08] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:52:43] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:52:43] "[35m[1mGET /api/v1.0/houses/index HTTP/1.1[0m" 500 -
+ERROR houses.py:33 (MySQLdb._exceptions.OperationalError) (1045, "Access denied for user 'FinalProjectGYL'@'71.116.60.222' (using password: YES)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 21:52:43] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 22:57:15] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info ORDER BY ih_house_info.order_count DESC 
+ LIMIT %s
+INFO log.py:110 (5,)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\cursors.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 22:57:15] "[35m[1mGET /api/v1.0/houses/index HTTP/1.1[0m" 500 -
+INFO log.py:110 ROLLBACK
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info
+INFO log.py:110 ()
+ERROR houses.py:33 (MySQLdb._exceptions.ProgrammingError) (1146, "Table 'FinalProjectGLY.ih_area_info' doesn't exist")
+[SQL: SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [10/Apr/2021 22:57:15] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\local.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\typing.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\annotation.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\compiler.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\crud.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\ddl.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\default_comparator.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\dml.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\types.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\sqltypes.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\sql\\type_api.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\engine\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\redis\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\utils.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask_sqlalchemy\\_compat.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\config.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pkgutil.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\importlib\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\importlib\\abc.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\engine\\strategies.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\pool\\impl.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\pydoc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pydoc_data\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pydoc_data\\__pycache__\\topics.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\filecmp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\runpy.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__pkginfo__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__main__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__pycache__\\check_parallel.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\reporters\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__pycache__\\ast_walker.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\wrappers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\decorators.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\importer.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\__pkginfo__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\_version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\nodes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\node_classes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\as_string.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\bases.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\context.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\manager.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\spec.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\imp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\zipfile.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\plistlib.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\parsers\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\parsers\\__pycache__\\expat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\extern\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\appdirs.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32com\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\__pycache__\\pythoncom.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32\\lib\\__pycache__\\pywintypes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32comext\\shell\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\__about__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_structures.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\specifiers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_compat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\requirements.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\pyparsing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\markers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\modutils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\sysconfig.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\errors.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\dep_util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\spawn.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\debug.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\distutils\\__pycache__\\log.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\transforms.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\decorators.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\mixins.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\scoped_nodes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\__pycache__\\objectmodel.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\__pycache__\\dunder_lookup.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\inference.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\helpers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\raw_building.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader

@@ -11,6 +11,10 @@ import logging
 from logging.handlers import RotatingFileHandler
 from ihome.utils.commons import ReConverter
 
+#初始化数据库
+from sqlalchemy import Column, String, create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
 
 # 数据库
 db = SQLAlchemy()
@@ -47,6 +51,7 @@ def create_app(config_name):
     # 使用app初始化db
     db.init_app(app)
 
+    
     # 初始化redis工具
     global redis_store
     redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT)

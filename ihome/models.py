@@ -5,7 +5,7 @@ from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
 from ihome import constants
 
-
+# TODO 修改数据库表 完成数据库的一一对应
 class BaseModel(object):
     """模型基类，为每个模型补充创建时间与更新时间"""
 
