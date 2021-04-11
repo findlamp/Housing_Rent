@@ -3224,3 +3224,333 @@ INFO _internal.py:113  * Restarting with windowsapi reloader
 WARNING _internal.py:113  * Debugger is active!
 INFO _internal.py:113  * Debugger PIN: 215-594-740
 INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:12:35] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:245 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:12:35] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:12:35] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\runpy.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\runpy.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__pkginfo__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__main__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\__pycache__\\__main__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\check_parallel.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\__pycache__\\check_parallel.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\reporters\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\reporters\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\ast_walker.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\utils\\__pycache__\\ast_walker.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\wrappers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\decorators.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\wrapt\\__pycache__\\importer.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\__pkginfo__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\lazy_object_proxy\\__pycache__\\_version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\nodes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\node_classes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\as_string.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\bases.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\context.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\__pycache__\\manager.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\spec.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\imp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\interpreter\\_import\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\zipfile.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\plistlib.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\parsers\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\xml\\parsers\\__pycache__\\expat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\extern\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\appdirs.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32com\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\__pycache__\\pythoncom.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32\\lib\\__pycache__\\pywintypes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\win32comext\\shell\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\__about__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_structures.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_typing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\specifiers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_compat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\requirements.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\pyparsing.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\markers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\_threading_local.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\dummy_threading.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:14:05] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:14:05] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:14:05] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:14:28] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:14:28] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:14:28] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\typing_extensions.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\astroid\\scoped_nodes.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\run.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\pylint\\lint\\pylinter.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:15:00] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:15:00] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:15:00] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:15:00] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:15:00] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:09] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:09] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\release.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\_exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FIELD_TYPE.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\times.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\CLIENT.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\connections.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\connections.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\cursors.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\converters.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FLAG.cpython-38.pyc', reloading
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:09] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:45] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:45] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:45] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:45] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:17:45] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\pydoc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pydoc_data\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\pydoc_data\\__pycache__\\topics.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\__pycache__\\filecmp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:19:39] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:19:40] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:19:40] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info
+INFO log.py:110 ()
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:19:40] "[35m[1mGET /api/v1.0/areas HTTP/1.1[0m" 500 -
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:19:40] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:21:19] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:21:19] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:21:19] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:21:20] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:21:20] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\Desktop\\books\\study of pitt\\2021 spring\\database management\\final_project\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:27] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:27] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:27] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:27] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:27] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:44] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:44] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:44] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:44] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:23:44] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
