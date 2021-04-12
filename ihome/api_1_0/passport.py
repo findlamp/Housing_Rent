@@ -19,23 +19,27 @@ def register():
     req_dict = request.get_json()
 
     mobile = req_dict.get("mobile")
-    sms_code = req_dict.get("sms_code")
+    #sms_code = req_dict.get("sms_code")
     password = req_dict.get("password")
     password2 = req_dict.get("password2")
 
     # 校验参数
-    if not all([mobile, sms_code, password, password2]):
+    #if not all([mobile, sms_code, password, password2]):
+        #return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+    if  not all([mobile, password, password2]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
-
     # 判断手机号格式
+    
     if not re.match(r"1[34578]\d{9}", mobile):
         # 表示格式不对
         return jsonify(errno=RET.PARAMERR, errmsg="手机号格式错误")
+    
 
     if password != password2:
         return jsonify(errno=RET.PARAMERR, errmsg="两次密码不一致")
 
     # 从redis中取出短信验证码
+    '''
     try:
         real_sms_code = redis_store.get("sms_code_%s" % mobile)
     except Exception as e:
@@ -55,7 +59,7 @@ def register():
     # 判断用户填写短信验证码的正确性
     if real_sms_code != sms_code:
         return jsonify(errno=RET.DATAERR, errmsg="短信验证码错误")
-
+    '''
     # 判断用户的手机号是否注册过
     # try:
     #     user = User.query.filter_by(mobile=mobile).first()

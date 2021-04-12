@@ -3,7 +3,7 @@ function getCookie(name) {
     var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
     return r ? r[1] : undefined;
 }
-
+/*
 // 保存图片验证码编号
 var imageCodeId = "";
 
@@ -54,6 +54,7 @@ function sendSMSCode() {
     };
 
     // 向后端发送请求
+    
     $.get("/api/v1.0/sms_codes/"+ mobile, req_data, function (resp) {
         // resp是后端返回的响应值，因为后端返回的是json字符串，
         // 所以ajax帮助我们把这个json字符串转换为js对象，resp就是转换后对象
@@ -77,18 +78,21 @@ function sendSMSCode() {
         }
     });
 }
+*/
 
 $(document).ready(function() {
-    generateImageCode();
+    //generateImageCode();
     $("#mobile").focus(function(){
         $("#mobile-err").hide();
     });
+    /*
     $("#imagecode").focus(function(){
         $("#image-code-err").hide();
     });
     $("#phonecode").focus(function(){
         $("#phone-code-err").hide();
     });
+    */
     $("#password").focus(function(){
         $("#password-err").hide();
         $("#password2-err").hide();
@@ -104,7 +108,7 @@ $(document).ready(function() {
         e.preventDefault();
 
         var mobile = $("#mobile").val();
-        var phoneCode = $("#phonecode").val();
+        //var phoneCode = $("#phonecode").val();
         var passwd = $("#password").val();
         var passwd2 = $("#password2").val();
         if (!mobile) {
@@ -112,11 +116,13 @@ $(document).ready(function() {
             $("#mobile-err").show();
             return;
         } 
+        /*
         if (!phoneCode) {
             $("#phone-code-err span").html("请填写短信验证码！");
             $("#phone-code-err").show();
             return;
         }
+        */
         if (!passwd) {
             $("#password-err span").html("请填写密码!");
             $("#password-err").show();
@@ -131,7 +137,7 @@ $(document).ready(function() {
         // 调用ajax向后端发送注册请求
         var req_data = {
             mobile: mobile,
-            sms_code: phoneCode,
+            //sms_code: phoneCode,
             password: passwd,
             password2: passwd2,
         };
