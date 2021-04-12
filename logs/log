@@ -3554,3 +3554,401 @@ INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /api/v1.0/h
 INFO houses.py:25 hit redis area_info
 INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [11/Apr/2021 10:25:10] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:27] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\release.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\_exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FIELD_TYPE.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\times.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\CLIENT.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\connections.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\cursors.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\__pycache__\\converters.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FLAG.cpython-38.pyc', reloading
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info ORDER BY ih_house_info.order_count DESC 
+ LIMIT %s
+INFO log.py:110 (5,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:28] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info
+INFO log.py:110 ()
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:28] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:34] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:34] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:34] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:41] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\site-packages\\flask\\__pycache__\\debughelpers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\lsxku\\programming\\python\\anaconda\\Lib\\encodings\\__pycache__\\hex_codec.cpython-38.pyc', reloading
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 INSERT INTO ih_user_profile (create_time, update_time, name, password_hash, mobile, real_name, id_card, avatar_url) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+INFO log.py:110 (datetime.datetime(2021, 4, 12, 8, 55, 49, 41891), datetime.datetime(2021, 4, 12, 8, 55, 49, 41891), '13307098271', 'pbkdf2:sha256:150000$BSwY9rKM$6f40395eea10d743544db5be9b3686593ce7ac0ba5fb6b7ac5118660a0e23c3c', '13307098271', None, None, None)
+INFO log.py:110 COMMIT
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:55:49] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 215-594-740
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:09] "[37mGET /my.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:09] "[37mGET /static/css/ihome/my.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:09] "[37mGET /static/js/ihome/my.js HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:10] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:10] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:13] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:13] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:13] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:13] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:13] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:57:13] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:15] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:56] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:56] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:57] "[37mGET /login.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:57] "[37mGET /static/css/ihome/login.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:57] "[37mGET /static/js/ihome/login.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:58:57] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:02] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.mobile = %s 
+ LIMIT %s
+INFO log.py:110 ('13307098271', 1)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:36] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:36] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:36] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:36] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:36] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 08:59:36] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:21] "[37mGET /search.html?aid=1&aname=asdasd&sd=2021-04-15&ed= HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:21] "[37mGET /static/css/ihome/search.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:21] "[37mGET /static/js/ihome/search.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:21] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:21] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.end_date >= %s
+INFO log.py:110 (datetime.datetime(2021, 4, 15, 0, 0),)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s ORDER BY ih_house_info.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('1', 0, 2)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s) AS anon_1
+INFO log.py:110 ('1',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:21] "[37mGET /api/v1.0/houses?aid=1&sd=2021-04-15&ed=&sk=new&p=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:24] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:24] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:24] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:24] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:24] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:25] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:25] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:26] "[37mGET /myhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:27] "[37mGET /static/css/ihome/myhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:27] "[37mGET /static/js/ihome/myhouse.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:27] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:27] "[37mGET /api/v1.0/users/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:29] "[37mGET /auth.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:29] "[37mGET /static/css/ihome/profile.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:29] "[37mGET /static/js/jquery.form.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:29] "[37mGET /static/js/ihome/auth.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:29] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:29] "[37mGET /api/v1.0/users/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:32] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:33] "[37mGET /api/v1.0/users/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:33] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 UPDATE ih_user_profile SET update_time=%s, real_name=%s, id_card=%s WHERE ih_user_profile.id = %s AND ih_user_profile.real_name IS NULL AND ih_user_profile.id_card IS NULL
+INFO log.py:110 (datetime.datetime(2021, 4, 12, 9, 1, 37, 891544), 'Shixiang Long(pitt)', '213', 6)
+INFO log.py:110 COMMIT
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:37] "[37mPOST /api/v1.0/users/auth HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:41] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:41] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:43] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:43] "[37mGET /api/v1.0/users/auth HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE %s = ih_house_info.user_id
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:43] "[37mGET /api/v1.0/user/houses HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:44] "[37mGET /newhouse.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:44] "[37mGET /static/css/ihome/newhouse.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:44] "[37mGET /static/js/ihome/newhouse.js HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:44] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:01:44] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_facility_info.create_time AS ih_facility_info_create_time, ih_facility_info.update_time AS ih_facility_info_update_time, ih_facility_info.id AS ih_facility_info_id, ih_facility_info.name AS ih_facility_info_name 
+FROM ih_facility_info 
+WHERE ih_facility_info.id IN (%s, %s, %s)
+INFO log.py:110 ('1', '7', '16')
+INFO log.py:110 INSERT INTO ih_house_info (create_time, update_time, user_id, area_id, title, price, address, room_count, acreage, unit, capacity, beds, deposit, min_days, max_days, order_count, index_image_url) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+INFO log.py:110 (datetime.datetime(2021, 4, 12, 9, 2, 19, 817630), datetime.datetime(2021, 4, 12, 9, 2, 19, 817630), 6, '1', 'pitt', 12312300, '123123123', '222', '22', '2', '2', '123', 11800, '123', '123', 0, '')
+INFO log.py:110 COMMIT
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:02:19] "[37mPOST /api/v1.0/houses/info HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:02:23] "[37mPOST /api/v1.0/houses/image HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 UPDATE ih_house_info SET update_time=%s, index_image_url=%s WHERE ih_house_info.id = %s
+INFO log.py:110 (datetime.datetime(2021, 4, 12, 9, 2, 34, 33563), None, 1)
+INFO log.py:110 INSERT INTO ih_house_image (create_time, update_time, house_id, url) VALUES (%s, %s, %s, %s)
+INFO log.py:110 (datetime.datetime(2021, 4, 12, 9, 2, 34, 73251), datetime.datetime(2021, 4, 12, 9, 2, 34, 73251), '1', None)
+INFO log.py:110 ROLLBACK
+ERROR houses.py:204 (MySQLdb._exceptions.OperationalError) (1048, "Column 'url' cannot be null")
+[SQL: INSERT INTO ih_house_image (create_time, update_time, house_id, url) VALUES (%s, %s, %s, %s)]
+[parameters: (datetime.datetime(2021, 4, 12, 9, 2, 34, 73251), datetime.datetime(2021, 4, 12, 9, 2, 34, 73251), '1', None)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:02:34] "[37mPOST /api/v1.0/houses/image HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:40] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:40] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:42] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:43] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:44] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:44] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_facility_info.create_time AS ih_facility_info_create_time, ih_facility_info.update_time AS ih_facility_info_update_time, ih_facility_info.id AS ih_facility_info_id, ih_facility_info.name AS ih_facility_info_name 
+FROM ih_facility_info 
+WHERE ih_facility_info.id IN (%s, %s, %s)
+INFO log.py:110 ('1', '7', '16')
+INFO log.py:110 INSERT INTO ih_house_info (create_time, update_time, user_id, area_id, title, price, address, room_count, acreage, unit, capacity, beds, deposit, min_days, max_days, order_count, index_image_url) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+INFO log.py:110 (datetime.datetime(2021, 4, 12, 9, 3, 48, 746640), datetime.datetime(2021, 4, 12, 9, 3, 48, 746640), 6, '1', 'pitt', 12312300, '123123123', '222', '22', '2', '2', '123', 11800, '123', '123', 0, '')
+INFO log.py:110 COMMIT
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.id = %s
+INFO log.py:110 (2,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:48] "[37mPOST /api/v1.0/houses/info HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:55] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:55] "[37mGET /api/v1.0/users/auth HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE %s = ih_house_info.user_id
+INFO log.py:110 (6,)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 (1,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:55] "[37mGET /api/v1.0/user/houses HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:56] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (6,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:56] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:57] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:57] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:57] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:57] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:03:57] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:246 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:25 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [12/Apr/2021 09:05:52] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
