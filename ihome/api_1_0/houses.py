@@ -9,8 +9,9 @@ from ihome.utils.commons import login_required
 from ihome.utils.image_storage import storage
 from datetime import datetime
 import json
-
-
+import uuid
+import os
+from pathlib import Path
 @api.route("/areas")
 def get_area_info():
     """获取城区信息"""
@@ -159,7 +160,7 @@ def save_house_info():
     return jsonify(errno=RET.OK, errmsg="OK", data={"house_id": house.id})
 
 
-@api.route("/houses/image", methods=["POST"])
+@api.route("/houses/image", methods=["POST","GET"])
 @login_required
 def save_house_image():
     """保存房屋的图片
@@ -181,10 +182,15 @@ def save_house_image():
     if house is None:  # if not house:
         return jsonify(errno=RET.NODATA, errmsg="房屋不存在")
 
-    image_data = image_file.read()
-    # 保存图片到七牛中
+
+    # 保存图片static image 下
     try:
-        file_name = storage(image_data)
+        # 通过时间戳获得uuid
+        file_name = str(uuid.uuid1())+'.png'
+        basedir = os.getcwd()
+        image_path = os.path.join(basedir,'ihome','static','images',file_name)
+        image_file.save(image_path)
+        # file_name = storage(image_data)
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.THIRDERR, errmsg="保存图片失败")
@@ -281,21 +287,21 @@ def get_house_detail(house_id):
     # 所以需要后端返回登录用户的user_id
     # 尝试获取用户登录的信息，若登录，则返回给前端登录用户的user_id，否则返回user_id=-1
     user_id = session.get("user_id", "-1")
-
+    print("-================================")
     # 校验参数
     if not house_id:
         return jsonify(errno=RET.PARAMERR, errmsg="参数确实")
 
-    # 先从redis缓存中获取信息
-    try:
-        ret = redis_store.get("house_info_%s" % house_id)
-    except Exception as e:
-        current_app.logger.error(e)
-        ret = None
-    if ret:
-        current_app.logger.info("hit house info redis")
-        return '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, ret), \
-               200, {"Content-Type": "application/json"}
+    # # 先从redis缓存中获取信息
+    # try:
+    #     ret = redis_store.get("house_info_%s" % house_id)
+    # except Exception as e:
+    #     current_app.logger.error(e)
+    #     ret = None
+    # if ret:
+    #     current_app.logger.info("hit house info redis")
+    #     return '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, ret), \
+    #            200, {"Content-Type": "application/json"}
 
     # 查询数据库
     try:
@@ -462,18 +468,6 @@ def get_house_list():
     return resp_json, 200, {"Content-Type": "application/json"}
 
 
-# redis_store
-#
-# "house_起始_结束_区域id_排序_页数"
-# (errno=RET.OK, errmsg="OK", data={"total_page": total_page, "houses": houses, "current_page": page})
-#
-#
-#
-# "house_起始_结束_区域id_排序": hash
-# {
-#     "1": "{}",
-#     "2": "{}",
-# }
 
 
 

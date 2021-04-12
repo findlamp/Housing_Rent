@@ -26,7 +26,7 @@ def set_user_avatar():
 
     image_data = image_file.read()
 
-    # 调用七牛上传图片, 返回文件名
+    # 调用七牛上传图片, 返回文件名 TODO 改为本地存储
     try:
         file_name = storage(image_data)
     except Exception as e:
