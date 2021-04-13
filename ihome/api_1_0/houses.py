@@ -190,7 +190,6 @@ def save_house_image():
         basedir = os.getcwd()
         image_path = os.path.join(basedir,'ihome','static','images',file_name)
         image_file.save(image_path)
-        # file_name = storage(image_data)
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.THIRDERR, errmsg="保存图片失败")

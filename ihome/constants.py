@@ -17,7 +17,8 @@ LOGIN_ERROR_MAX_TIMES = 5
 LOGIN_ERROR_FORBID_TIME = 600
 
 # 图片地址 暂时不改动Key值
-QINIU_URL_DOMAIN =  os.path.join(os.getcwd(),'ihome','static','images')+os.sep
+QINIU_URL_DOMAIN =  '/static/images/'
+
 # 城区信息的缓存时间, 单位：秒
 AREA_INFO_REDIS_CACHE_EXPIRES = 7200
 
