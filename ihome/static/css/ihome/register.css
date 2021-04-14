@@ -12,6 +12,11 @@ body {
     height: 59px;
     margin: 10px auto;
 }
+.logo {
+    width :70px;
+    height :60px;
+    margin:0px auto;
+}
 .form-register {
     max-width: 330px;
     padding: 10px;

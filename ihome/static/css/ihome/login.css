@@ -12,6 +12,10 @@ body {
     height: 59px;
     margin: 10px auto;
 }
+.logo {
+    width : 70px;
+    height : 60px;
+}
 .form-login {
     max-width: 330px;
     padding: 10px;
