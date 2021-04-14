@@ -8,4 +8,4 @@ api = Blueprint("api_1_0", __name__)
 
 
 # 导入蓝图的视图
-from . import demo, passport, profile, houses, orders
+from . import demo, passport, profile, houses, orders,pay

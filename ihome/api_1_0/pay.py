@@ -2,23 +2,26 @@
 
 from . import api
 from ihome.utils.commons import login_required
-from ihome.models import Order
+from ihome.models import Order,House
+from ihome.models import User
 from flask import g, current_app, jsonify, request
 from ihome.utils.response_code import RET
-from alipay import AliPay
+#from alipay import AliPay
 from ihome import constants, db
 import os
 
 
-@api.route("/orders/<int:order_id>/payment", methods=["POST"])
+@api.route("/orders/<int:order_id>/payment", methods=["GET"])
 @login_required
 def order_pay(order_id):
     """发起支付宝支付"""
     user_id = g.user_id
-
+    mobile = ''
     # 判断订单状态
     try:
         order = Order.query.filter(Order.id == order_id, Order.user_id == user_id, Order.status == "WAIT_PAYMENT").first()
+        house = House.query.filter(House.id == order.house_id).first()
+        user = User.query.filter(User.id == house.user_id).first()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="数据库异常")
@@ -26,6 +29,13 @@ def order_pay(order_id):
     if order is None:
         return jsonify(errno=RET.NODATA, errmsg="订单数据有误")
 
+    if user is not None:
+        mobile = user.mobile
+    
+    amount = order.amount
+
+
+    '''     
     # 创建支付宝sdk的工具对象
     alipay_client = AliPay(
         appid="2016081600258081",
@@ -47,17 +57,24 @@ def order_pay(order_id):
 
     # 构建让用户跳转的支付连接地址
     pay_url = constants.ALIPAY_URL_PREFIX + order_string
-    return jsonify(errno=RET.OK, errmsg="OK", data={"pay_url": pay_url})
+    '''
 
+    #info = "contact : " + mobile + "\n"  +"amount : " + str(amount/100)
+    pay_html = "http://127.0.0.1:5000/payComplete.html"
+    return_info = "?order_id=" + str(order_id) + "&contact="+ mobile + "&amount=" + str(amount/100)
+    pay_url = pay_html + return_info
+    #return jsonify(errno=RET.OK, errmsg="OK", data={"pay_url": pay_url})
+    return jsonify(errno=RET.OK, errmsg="OK",data={"pay_url" : pay_url})
 
 @api.route("/order/payment", methods=["PUT"])
 def save_order_payment_result():
     """保存订单支付结果"""
-    alipay_dict = request.form.to_dict()
+    pay_dict = request.form.to_dict()
 
     # 对支付宝的数据进行分离  提取出支付宝的签名参数sign 和剩下的其他数据
-    alipay_sign = alipay_dict.pop("sign")
+    #alipay_sign = alipay_dict.pop("sign")
 
+    '''
     # 创建支付宝sdk的工具对象
     alipay_client = AliPay(
         appid="2016081600258081",
@@ -72,17 +89,17 @@ def save_order_payment_result():
     # 借助工具验证参数的合法性
     # 如果确定参数是支付宝的，返回True，否则返回false
     result = alipay_client.verify(alipay_dict, alipay_sign)
-
-    if result:
+    '''
+    #if result:
         # 修改数据库的订单状态信息
-        order_id = alipay_dict.get("out_trade_no")
-        trade_no = alipay_dict.get("trade_no")  # 支付宝的交易号
-        try:
-            Order.query.filter_by(id=order_id).update({"status": "WAIT_COMMENT", "trade_no": trade_no})
-            db.session.commit()
-        except Exception as e:
-            current_app.logger.error(e)
-            db.session.rollback()
+    order_id = pay_dict.get("order_id")
+    #trade_no = alipay_dict.get("trade_no")  # 支付宝的交易号
+    try:
+        Order.query.filter_by(id=order_id).update({"status": "WAIT_COMMENT"})
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        db.session.rollback()
 
     return jsonify(errno=RET.OK, errmsg="OK")
 

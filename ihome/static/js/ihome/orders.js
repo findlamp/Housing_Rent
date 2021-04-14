@@ -25,18 +25,22 @@ $(document).ready(function(){
                 var orderId = $(this).parents("li").attr("order-id");
                 $.ajax({
                     url: "/api/v1.0/orders/" + orderId + "/payment",
-                    type: "post",
+                    type: "get",
                     dataType: "json",
                     headers: {
                         "X-CSRFToken": getCookie("csrf_token"),
                     },
                     success: function (resp) {
+                       
+                        //location.href = "/payComplete.html"
+                        
                         if ("4101" == resp.errno) {
-                            location.href = "/login.html";
+                            location.href = "login.html";
                         } else if ("0" == resp.errno) {
-                            // 引导用户跳转到支付宝连接
-                            location.href = resp.data.pay_url;
+                            
+                            location.href = resp.data.pay_url
                         }
+                        
                     }
                 });
             });
