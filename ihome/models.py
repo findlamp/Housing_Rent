@@ -143,7 +143,8 @@ class House(BaseModel, db.Model):
             "order_count": self.order_count,
             "address": self.address,
             "user_avatar": constants.QINIU_URL_DOMAIN + self.user.avatar_url if self.user.avatar_url else "",
-            "ctime": self.create_time.strftime("%Y-%m-%d")
+            "ctime": self.create_time.strftime("%Y-%m-%d"),
+            "area_id" : self.area_id
         }
         return house_dict
 
@@ -165,6 +166,7 @@ class House(BaseModel, db.Model):
             "deposit": self.deposit,
             "min_days": self.min_days,
             "max_days": self.max_days,
+            "area_id" : self.area_id
         }
 
         # 房屋图片
@@ -211,8 +213,6 @@ class HouseImage(BaseModel, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)  # 房屋编号
     url = db.Column(db.String(256), nullable=False)  # 图片的路径
-
-
 class Order(BaseModel, db.Model):
     """订单"""
 
@@ -255,3 +255,43 @@ class Order(BaseModel, db.Model):
             "comment": self.comment if self.comment else ""
         }
         return order_dict
+
+# 新建内容
+class Environment(BaseModel, db.Model):
+    "周边配套"
+    __tablename__ = "ih_environment_info"
+    id = db.Column(db.Integer, primary_key=True)  
+    area_id = db.Column(db.Integer)
+    name = db.Column(db.String(32), nullable=False)  
+
+    def to_dict(self):
+        environment_dict = {
+            "area_id": self.id,
+            "id" : self.id,
+            "name" : self.name
+        }
+        return environment_dict
+
+
+
+
+
+class Criminal(BaseModel, db.Model):
+    "周边案件"
+    __tablename__ = "ih_criminal_info"
+    id = db.Column(db.Integer, primary_key=True)  
+    area_id = db.Column(db.Integer)
+    times = db.Column(db.Integer)
+    name = db.Column(db.String(32), nullable=False)  
+    
+    def to_dict(self):
+        criminal_dict = {
+            "id" : self.id,
+            "name" : self.name,
+            "area_id" : self.area_id,
+            "times" : self.times
+        }
+        return criminal_dict
+
+
+

@@ -9,7 +9,7 @@ class Config(object):
 
     # 数据库
     SQLALCHEMY_DATABASE_URI = "mysql://FinalProjectGLY:finalProject123%40@134.209.169.96:3306/FinalProjectGLY"
-    SQLALCHEMY_TRACK_MODIFICATIONS = True # trace the model automatically
+    # SQLALCHEMY_TRACK_MODIFICATIONS = True # trace the model automatically
     SQLALCHEMY_ECHO = True # print executed sql
     # redis
     REDIS_HOST = "127.0.0.1"

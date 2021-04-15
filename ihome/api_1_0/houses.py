@@ -3,7 +3,7 @@
 from . import api
 from flask import g, current_app, jsonify, request, session
 from ihome.utils.response_code import RET
-from ihome.models import Area, House, Facility, HouseImage, User, Order
+from ihome.models import Area, House, Facility, HouseImage, User, Order,Environment,Criminal
 from ihome import db, constants, redis_store
 from ihome.utils.commons import login_required
 from ihome.utils.image_storage import storage
@@ -12,6 +12,17 @@ import json
 import uuid
 import os
 from pathlib import Path
+
+# list to json
+def listToJson(lst):
+    import json
+    import numpy as np
+    keys = [str(x) for x in np.arange(len(lst))]
+    list_json = dict(zip(keys, lst))
+    str_json = json.dumps(list_json, indent=2, ensure_ascii=False)  # json转为string
+    return str_json
+
+
 @api.route("/areas")
 def get_area_info():
     """获取城区信息"""
@@ -286,21 +297,9 @@ def get_house_detail(house_id):
     # 所以需要后端返回登录用户的user_id
     # 尝试获取用户登录的信息，若登录，则返回给前端登录用户的user_id，否则返回user_id=-1
     user_id = session.get("user_id", "-1")
-    print("-================================")
     # 校验参数
     if not house_id:
         return jsonify(errno=RET.PARAMERR, errmsg="参数确实")
-
-    # # 先从redis缓存中获取信息
-    # try:
-    #     ret = redis_store.get("house_info_%s" % house_id)
-    # except Exception as e:
-    #     current_app.logger.error(e)
-    #     ret = None
-    # if ret:
-    #     current_app.logger.info("hit house info redis")
-    #     return '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, ret), \
-    #            200, {"Content-Type": "application/json"}
 
     # 查询数据库
     try:
@@ -319,14 +318,29 @@ def get_house_detail(house_id):
         current_app.logger.error(e)
         return jsonify(errno=RET.DATAERR, errmsg="数据出错")
 
-    # 存入到redis中
+    # 转换为json格式
     json_house = json.dumps(house_data)
+
+    # 通过area信息查询地理信息
+    area_id = house_data['area_id']
+    environment = Environment.query.filter(Environment.area_id == area_id).all()
+    environment_data = []
+    for item in environment:
+        environment_data.append(item.name)
+    json_environment = listToJson(environment_data)
+
+    # 通过area信息查询犯罪信息
+    criminal = Criminal.query.filter(Environment.area_id == area_id).all()
+    criminal_data = {}
+    for item in criminal:
+        criminal_data[item.name] = item.times
+    json_criminal = json.dumps(criminal_data)
     try:
         redis_store.setex("house_info_%s" % house_id, constants.HOUSE_DETAIL_REDIS_EXPIRE_SECOND, json_house)
     except Exception as e:
         current_app.logger.error(e)
 
-    resp = '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, json_house), \
+    resp = '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s,"environment":%s,"criminal":%s}}' % (user_id, json_house,json_environment,json_criminal), \
            200, {"Content-Type": "application/json"}
     return resp
 

@@ -221,6 +221,7 @@ house_environment = Table(
 
 
 engine = create_engine('mysql://FinalProjectGLY:finalProject123%40@134.209.169.96:3306/FinalProjectGLY')
+#不要动！ 没有更新数据库脚本
 # 创建DBSession类型:
-DBSession = sessionmaker(bind=engine)
-Base.metadata.create_all(engine)
+# DBSession = sessionmaker(bind=engine)
+# Base.metadata.create_all(engine)
