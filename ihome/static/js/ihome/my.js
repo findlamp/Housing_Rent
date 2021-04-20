@@ -3,7 +3,7 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
-// 点击推出按钮时执行的函数
+// execute when the push button is clicked
 function logout() {
     $.ajax({
         url: "/api/v1.0/session",
@@ -22,11 +22,11 @@ function logout() {
 
 $(document).ready(function(){
     $.get("/api/v1.0/user", function(resp){
-        // 用户未登录
+        // User not logged in
         if ("4101" == resp.errno) {
             location.href = "/login.html";
         }
-        // 查询到了用户的信息
+        // get the user information
         else if ("0" == resp.errno) {
             $("#user-name").html(resp.data.name);
             $("#user-mobile").html(resp.data.mobile);

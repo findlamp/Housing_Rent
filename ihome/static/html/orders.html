@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>爱家-我的订单</title>
+    <title>Ihome-Order</title>
     <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/css/reset.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="top-bar">
             <div class="nav-bar">
-                <h3 class="page-title">我的订单</h3>
+                <h3 class="page-title">My Order</h3>
                 <a class="nav-btn fl" href="/my.html"><span><i class="fa fa-angle-left fa-2x"></i></span></a>
             </div>
         </div>
@@ -28,14 +28,14 @@
                 {{each orders as order}}
                 <li order-id={{order.order_id}}>
                     <div class="order-title">
-                        <h3>订单编号：{{order.order_id}}</h3>
+                        <h3>Oder ID：{{order.order_id}}</h3>
                         {{ if "WAIT_COMMENT" == order.status }}
                         <div class="fr order-operate">
-                            <button type="button" class="btn btn-success order-comment" data-toggle="modal" data-target="#comment-modal">发表评价</button>
+                            <button type="button" class="btn btn-success order-comment" data-toggle="modal" data-target="#comment-modal">Comment</button>
                         </div>
                         {{ else if "WAIT_PAYMENT" == order.status }}
                         <div class="fr order-operate">
-                            <button type="button" class="btn btn-success order-pay">去支付</button>
+                            <button type="button" class="btn btn-success order-pay">Pay</button>
                         </div>
                         {{/if}}
                     </div>
@@ -44,29 +44,29 @@
                         <div class="order-text">
                             <h3>{{order.title}}</h3>
                             <ul>
-                                <li>创建时间：{{order.ctime}}</li>
-                                <li>入住日期：{{order.start_date}}</li>
-                                <li>离开日期：{{order.end_date}}</li>
-                                <li>合计金额：￥{{(order.amount/100.0).toFixed(0)}}(共{{order.days}}晚)</li>
-                                <li>订单状态：
+                                <li>Order Date：{{order.ctime}}</li>
+                                <li>Check-in Date：{{order.start_date}}</li>
+                                <li>Check-out Date：{{order.end_date}}</li>
+                                <li>Total amount：￥{{(order.amount/100.0).toFixed(0)}}(共{{order.days}}晚)</li>
+                                <li>Order Status：
                                     <span>
                                         {{if "WAIT_ACCEPT" == order.status}}
-                                            待接单
+                                        Remain to be accepted
                                         {{else if "WAIT_PAYMENT" == order.status}}
-                                            待支付
+                                        Remain to be paid
                                         {{else if "WAIT_COMMENT" == order.status}}
-                                            待评价
+                                        Remain to be commented 
                                         {{else if "COMPLETE" == order.status}}
-                                            已完成
+                                        Accomplished
                                         {{else if "REJECTED" == order.status}}
-                                            已拒单
+                                        Denied
                                         {{/if}}
                                     </span>
                                 </li>
                                 {{if "COMPLETE" == order.status}}
-                                <li>我的评价： {{order.comment}}</li>
+                                <li>My comment： {{order.comment}}</li>
                                 {{else if "REJECTED" == order.status}}
-                                <li>拒单原因： {{order.comment}}</li>
+                                <li>Reason to deny： {{order.comment}}</li>
                                 {{/if}}
                             </ul>
                         </div>
@@ -74,7 +74,7 @@
                 </li>
                 {{/each}}
                 {{else}}
-                暂时没有订单。
+                There is no order.
                 {{/if}}
             </script>
             <div class="modal fade" id="comment-modal" tabindex="-1" role="dialog" aria-labelledby="comment-label">
@@ -82,21 +82,21 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">发表评价</h4>
+                            <h4 class="modal-title">Comment</h4>
                         </div>
                         <div class="modal-body">
-                            <textarea class="form-control" rows="3" id="comment" placeholder="请在此处填写评价"></textarea>
+                            <textarea class="form-control" rows="3" id="comment" placeholder="Enter the comment here"></textarea>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                            <button type="button" class="btn btn-primary modal-comment">确定</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary modal-comment">Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <p><span><i class="fa fa-copyright"></i></span>爱家租房&nbsp;&nbsp;享受家的温馨</p>
+            <p><span><i class="fa fa-copyright"></i></span>Ihome&nbsp;&nbsp;Make it feel like your home</p>
         </div> 
     </div>
     

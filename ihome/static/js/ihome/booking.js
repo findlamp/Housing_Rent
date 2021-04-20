@@ -25,7 +25,7 @@ function showErrorMsg() {
 }
 
 $(document).ready(function(){
-    // 判断用户是否登录
+    // Determine whether the user is logged in
     $.get("/api/v1.0/session", function(resp) {
         if ("0" != resp.errno) {
             location.href = "/login.html";
@@ -42,20 +42,20 @@ $(document).ready(function(){
         var endDate = $("#end-date").val();
 
         if (startDate && endDate && startDate > endDate) {
-            showErrorMsg("日期有误，请重新选择!");
+            showErrorMsg("The date is wrong, please choose again!");
         } else {
             var sd = new Date(startDate);
             var ed = new Date(endDate);
             days = (ed - sd)/(1000*3600*24) + 1;
             var price = $(".house-text>p>span").html();
             var amount = days * parseFloat(price);
-            $(".order-amount>span").html(amount.toFixed(2) + "(共"+ days +"晚)");
+            $(".order-amount>span").html(amount.toFixed(2) + "("+ days +"nights)");
         }
     });
     var queryData = decodeQuery();
     var houseId = queryData["hid"];
 
-    // 获取房屋的基本信息
+    // Get basic information about the house
     $.get("/api/v1.0/houses/" + houseId, function(resp){
         if (0 == resp.errno) {
             $(".house-info>img").attr("src", resp.data.house.img_urls[0]);
@@ -63,7 +63,7 @@ $(document).ready(function(){
             $(".house-text>p>span").html((resp.data.house.price/100.0).toFixed(0));
         }
     });
-    // 订单提交
+    // Orders submit
     $(".submit-btn").on("click", function(e) {
         if ($(".order-amount>span").html()) {
             $(this).prop("disabled", true);
@@ -87,7 +87,7 @@ $(document).ready(function(){
                     if ("4101" == resp.errno) {
                         location.href = "/login.html";
                     } else if ("4004" == resp.errno) {
-                        showErrorMsg("房间已被抢定，请重新选择日期！");
+                        showErrorMsg("Room has been reserved,！");
                     } else if ("0" == resp.errno) {
                         location.href = "/orders.html";
                     }

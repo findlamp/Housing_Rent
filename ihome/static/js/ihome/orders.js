@@ -1,11 +1,11 @@
-//模态框居中的控制
+//Modal frame center control
 function centerModals(){
-    $('.modal').each(function(i){   //遍历每一个模态框
+    $('.modal').each(function(i){   //Iterate each modal box
         var $clone = $(this).clone().css('display', 'block').appendTo('body');    
         var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);
         top = top > 0 ? top : 0;
         $clone.remove();
-        $(this).find('.modal-content').css("margin-top", top-30);  //修正原先已经有的30个像素
+        $(this).find('.modal-content').css("margin-top", top-30);  //Modify
     });
 }
 
@@ -15,9 +15,9 @@ function getCookie(name) {
 }
 
 $(document).ready(function(){
-    $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
+    $('.modal').on('show.bs.modal', centerModals);      //modal box appear
     $(window).on('resize', centerModals);
-    // 查询房客订单
+    // get the order
     $.get("/api/v1.0/user/orders?role=custom", function(resp){
         if ("0" == resp.errno) {
             $(".orders-list").html(template("orders-list-tmpl", {orders:resp.data.orders}));
@@ -56,7 +56,7 @@ $(document).ready(function(){
                     order_id:orderId,
                     comment:comment
                 };
-                // 处理评论
+                // deal with comment
                 $.ajax({
                     url:"/api/v1.0/orders/"+orderId+"/comment",
                     type:"PUT",
@@ -70,7 +70,7 @@ $(document).ready(function(){
                         if ("4101" == resp.errno) {
                             location.href = "/login.html";
                         } else if ("0" == resp.errno) {
-                            $(".orders-list>li[order-id="+ orderId +"]>div.order-content>div.order-text>ul li:eq(4)>span").html("已完成");
+                            $(".orders-list>li[order-id="+ orderId +"]>div.order-content>div.order-text>ul li:eq(4)>span").html("Accepted");
                             $("ul.orders-list>li[order-id="+ orderId +"]>div.order-title>div.order-operate").hide();
                             $("#comment-modal").modal("hide");
                         }

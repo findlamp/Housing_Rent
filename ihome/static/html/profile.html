@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>爱家-个人信息</title>
+    <title>Ihome-Information</title>
     <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/css/reset.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="top-bar">
             <div class="nav-bar">
-                <h3 class="page-title">个人信息</h3>
+                <h3 class="page-title">Inforamtion</h3>
                 <a class="nav-btn fl" href="/my.html"><span><i class="fa fa-angle-left fa-2x"></i></span></a>
             </div>
         </div>
@@ -24,41 +24,41 @@
             <ul class="menus-list">
                 <li>
                     <div class="menu-title">
-                        <h3>头像</h3>
+                        <h3>Head Portrait</h3>
                     </div>
                     <div class="menu-content">
                         <img id="user-avatar" src="">
                         <div class="menu-text">
                             <form id="form-avatar" enctype="multipart/form-data">
-                                选择头像：<input type="file" accept="image/*" name="avatar">
-                                <input type="submit" class="btn btn-success" value="上传">
+                                Select Picture：<input type="file" accept="image/*" name="avatar">
+                                <input type="submit" class="btn btn-success" value="Submit">
                             </form>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="menu-title">
-                        <h3>用户名</h3>
+                        <h3>Username</h3>
                     </div>
                     <div class="menu-content">
                         <form id="form-name" action="/api/profile/name" method="post">
                             <input type="text" name="name" id="user-name">
-                            <input type="submit" class="btn btn-success" value="保存">
+                            <input type="submit" class="btn btn-success" value="Submit">
                         </form>
-                        <div class="error-msg"><i class="fa fa-exclamation-circle"></i>用户名已存在，请重新设置</div>
+                        <div class="error-msg"><i class="fa fa-exclamation-circle"></i>The user name already exists. Please try another one.</div>
                     </div>
                 </li>
             </ul>
         </div>
         <div class="popup_con">
             <div class="popup">
-                <p>保存成功！</p>
+                <p>Submit Success！</p>
             </div>
             
             <div class="mask"></div>
         </div>
         <div class="footer">
-            <p><span><i class="fa fa-copyright"></i></span>爱家租房&nbsp;&nbsp;享受家的温馨</p>
+            <p><span><i class="fa fa-copyright"></i></span>Ihome&nbsp;&nbsp;Make it feel like your home</p>
         </div> 
     </div>
     

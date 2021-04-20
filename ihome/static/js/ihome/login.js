@@ -15,21 +15,21 @@ $(document).ready(function() {
         mobile = $("#mobile").val();
         passwd = $("#password").val();
         if (!mobile) {
-            $("#mobile-err span").html("请填写正确的手机号！");
+            $("#mobile-err span").html("Please enter the right phone number！");
             $("#mobile-err").show();
             return;
         } 
         if (!passwd) {
-            $("#password-err span").html("请填写密码!");
+            $("#password-err span").html("Please enter the password!");
             $("#password-err").show();
             return;
         }
-        // 将表单的数据存放到对象data中
+        // Preserve the data in the object
         var data = {
             mobile: mobile,
             password: passwd
         };
-        // 将data转为json字符串
+        // Convert data to a JSON string
         var jsonData = JSON.stringify(data);
         $.ajax({
             url:"/api/v1.0/sessions",
@@ -42,11 +42,11 @@ $(document).ready(function() {
             },
             success: function (data) {
                 if (data.errno == "0") {
-                    // 登录成功，跳转到主页
+                    // login success, back to homepage
                     location.href = "/";
                 }
                 else {
-                    // 其他错误信息，在页面中展示
+                    // error information
                     $("#password-err span").html(data.errmsg);
                     $("#password-err").show();
                 }

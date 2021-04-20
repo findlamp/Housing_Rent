@@ -4,7 +4,7 @@ function getCookie(name) {
 }
 
 $(document).ready(function(){
-    // 向后端获取城区信息
+    // get location
     $.get("/api/v1.0/areas", function (resp) {
         if (resp.errno == "0") {
             var areas = resp.data;
@@ -13,7 +13,7 @@ $(document).ready(function(){
             //     $("#area-id").append('<option value="'+ area.aid +'">'+ area.aname +'</option>');
             // }
 
-            // 使用js模板
+            // use js framework
             var html = template("areas-tmpl", {areas: areas})
             $("#area-id").html(html);
 
@@ -26,17 +26,17 @@ $(document).ready(function(){
     $("#form-house-info").submit(function (e) {
         e.preventDefault();
 
-        // 处理表单数据
+        // deal with order
         var data = {};
         $("#form-house-info").serializeArray().map(function(x) { data[x.name]=x.value });
 
-        // 收集设置id信息
+        // collect order
         var facility = [];
         $(":checked[name=facility]").each(function(index, x){facility[index] = $(x).val()});
 
         data.facility = facility;
 
-        // 向后端发送请求
+        // Send a request to the back end
         $.ajax({
             url: "/api/v1.0/houses/info",
             type: "post",
@@ -48,14 +48,14 @@ $(document).ready(function(){
             },
             success: function (resp) {
                 if (resp.errno == "4101") {
-                    // 用户未登录
+                    // User not logged in
                     location.href = "/login.html";
                 } else if (resp.errno == "0") {
-                    // 隐藏基本信息表单
+                    // hide information
                     $("#form-house-info").hide();
-                    // 显示图片表单
+                    // show the images
                     $("#form-house-image").show();
-                    // 设置图片表单中的house_id
+                    // set the house_id of images
                     $("#house-id").val(resp.data.house_id);
                 } else {
                     alert(resp.errmsg);

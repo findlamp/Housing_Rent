@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>爱家-我的房源</title>
+    <title>Ihome-Myhouse</title>
     <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/css/reset.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="top-bar">
             <div class="nav-bar">
-                <h3 class="page-title">我的房源</h3>
+                <h3 class="page-title">My House</h3>
                 <a class="nav-btn fl" href="/my.html"><span><i class="fa fa-angle-left fa-2x"></i></span></a>
             </div>
         </div>
@@ -24,10 +24,10 @@
             <ul class="houses-list auth-warn">
                 <li>
                     <div class="house-title">
-                        <h3>尚未进行实名认证，无法发布房屋信息！</h3>
+                        <h3>Has not carried on the authentication, can not release the housing information!</h3>
                     </div>
                     <div class="house-content">
-                        <a href="/auth.html" class="btn btn-success">去实名认证</a>
+                        <a href="/auth.html" class="btn btn-success">Authentication</a>
                     </div>
                 </li>
             </ul>
@@ -36,22 +36,22 @@
             <script id="houses-list-tmpl" type="text/html">
                 <li>
                     <div class="new-house">
-                        <a href="/newhouse.html">发布新房源</a>
+                        <a href="/newhouse.html">Publish new house</a>
                     </div>
                 </li>
                 {{each houses as house}}
                 <li>
                     <a href="/detail.html?id={{house.house_id}}">
                         <div class="house-title">
-                            <h3>房屋ID:{{house.house_id}} —— {{house.title}}</h3>
+                            <h3>House ID:{{house.house_id}} —— {{house.title}}</h3>
                         </div>
                         <div class="house-content">
                             <img src="{{house.img_url}}">
                             <div class="house-text">
                                 <ul>
-                                    <li>位于：{{house.area_name}}</li>
-                                    <li>价格：￥{{(house.price/100.0).toFixed(0)}}/晚</li>
-                                    <li>发布时间：{{house.ctime}}</li>
+                                    <li>Location：{{house.area_name}}</li>
+                                    <li>Price：${{(house.price/100.0).toFixed(0)}}per night</li>
+                                    <li>Publish Time：{{house.ctime}}</li>
                                 </ul>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
             </script>
         </div>
         <div class="footer">
-            <p><span><i class="fa fa-copyright"></i></span>爱家租房&nbsp;&nbsp;享受家的温馨</p>
+            <p><span><i class="fa fa-copyright"></i></span>Ihome&nbsp;&nbsp;Make it feel like your home</p>
         </div> 
     </div>
     

@@ -1,11 +1,11 @@
-//模态框居中的控制
+//Modal frame center control
 function centerModals(){
-    $('.modal').each(function(i){   //遍历每一个模态框
+    $('.modal').each(function(i){   //Iterate each modal box
         var $clone = $(this).clone().css('display', 'block').appendTo('body');    
         var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);
         top = top > 0 ? top : 0;
         $clone.remove();
-        $(this).find('.modal-content').css("margin-top", top-30);  //修正原先已经有的30个像素
+        $(this).find('.modal-content').css("margin-top", top-30);  //Modify
     });
 }
 
@@ -15,7 +15,7 @@ function setStartDate() {
         $(".search-btn").attr("start-date", startDate);
         $("#start-date-btn").html(startDate);
         $("#end-date").datepicker("destroy");
-        $("#end-date-btn").html("离开日期");
+        $("#end-date-btn").html("Check-out Date");
         $("#end-date-input").val("");
         $(".search-btn").attr("end-date", "");
         $("#end-date").datepicker({
@@ -58,7 +58,7 @@ function goToSearchPage(th) {
 }
 
 $(document).ready(function(){
-    // 检查用户的登录状态
+    // Check the status of user
     $.get("/api/v1.0/session", function(resp) {
         if ("0" == resp.errno) {
             $(".top-bar>.user-info>.user-name").html(resp.data.name);
@@ -68,12 +68,11 @@ $(document).ready(function(){
         }
     }, "json");
 
-    // 获取幻灯片要展示的房屋基本信息
+    // Get the house information
     $.get("/api/v1.0/houses/index", function(resp){
         if ("0" == resp.errno) {
             $(".swiper-wrapper").html(template("swiper-houses-tmpl", {houses:resp.data}));
 
-            // 设置幻灯片对象，开启幻灯片滚动
             var mySwiper = new Swiper ('.swiper-container', {
                 loop: true,
                 autoplay: 2000,
@@ -84,7 +83,7 @@ $(document).ready(function(){
         }
     });
 
-    // 获取城区信息
+    // Get the location
     $.get("/api/v1.0/areas", function(resp){
         if ("0" == resp.errno) {
             $(".area-list").html(template("area-list-tmpl", {areas:resp.data}));
@@ -97,8 +96,8 @@ $(document).ready(function(){
             });
         }
     });
-    $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
-    $(window).on('resize', centerModals);               //当窗口大小变化的时候
+    $('.modal').on('show.bs.modal', centerModals);      //modal box appear
+    $(window).on('resize', centerModals);               //window size change
     $("#start-date").datepicker({
         language: "zh-CN",
         keyboardNavigation: false,

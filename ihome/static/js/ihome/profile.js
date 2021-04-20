@@ -14,9 +14,9 @@ function getCookie(name) {
 
 $(document).ready(function () {
     $("#form-avatar").submit(function (e) {
-        // 阻止表单的默认行为
+        // Prevents the default behavior of the form
         e.preventDefault();
-        // 利用jquery.form.min.js提供的ajaxSubmit对表单进行异步提交
+        // Use AjaxSubmit provided by jQuery.form.min.js to submit the form asynchronously
         $(this).ajaxSubmit({
             url: "/api/v1.0/users/avatar",
             type: "post",
@@ -26,7 +26,7 @@ $(document).ready(function () {
             },
             success: function (resp) {
                 if (resp.errno == "0") {
-                    // 上传成功
+                    // submit success
                     var avatarUrl = resp.data.avatar_url;
                     $("#user-avatar").attr("src", avatarUrl);
                 } else if (resp.errno == "4101") {
@@ -38,13 +38,13 @@ $(document).ready(function () {
         })
     });
 
-    // 在页面加载是向后端查询用户的信息
+    // The back end of the page load is queried for user information
     $.get("/api/v1.0/user", function(resp){
-        // 用户未登录
+        // User not logged in
         if ("4101" == resp.errno) {
             location.href = "/login.html";
         }
-        // 查询到了用户的信息
+        // get the user information
         else if ("0" == resp.errno) {
             $("#user-name").val(resp.data.name);
             if (resp.data.avatar) {
@@ -55,11 +55,11 @@ $(document).ready(function () {
 
      $("#form-name").submit(function(e){
         e.preventDefault();
-        // 获取参数
+        // get parameters
         var name = $("#user-name").val();
 
         if (!name) {
-            alert("请填写用户名！");
+            alert("Please enter the username！");
             return;
         }
         $.ajax({

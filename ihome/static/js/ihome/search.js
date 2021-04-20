@@ -1,9 +1,9 @@
-var cur_page = 1; // 当前页
-var next_page = 1; // 下一页
-var total_page = 1;  // 总页数
-var house_data_querying = true;   // 是否正在向后台获取数据
+var cur_page = 1; // current page
+var next_page = 1; // next page
+var total_page = 1;  // total page
+var house_data_querying = true;   // Whether fetch data from the background
 
-// 解析url中的查询字符串
+// Parse the query string in the URL
 function decodeQuery(){
     var search = decodeURI(document.location.search);
     return search.replace(/(^\?)/, '').split('&').reduce(function(result, item){
@@ -13,7 +13,7 @@ function decodeQuery(){
     }, {});
 }
 
-// 更新用户点选的筛选条件
+// Update the filter selected by the user
 function updateFilterDateDisplay() {
     var startDate = $("#start-date").val();
     var endDate = $("#end-date").val();
@@ -22,15 +22,15 @@ function updateFilterDateDisplay() {
         var text = startDate.substr(5) + "/" + endDate.substr(5);
         $filterDateTitle.html(text);
     } else {
-        $filterDateTitle.html("入住日期");
+        $filterDateTitle.html("Check-in Date");
     }
 }
 
 
-// 更新房源列表信息
-// action表示从后端请求的数据在前端的展示方式
-// 默认采用追加方式
-// action=renew 代表页面数据清空从新展示
+// Update listing information
+// Action represents how data requested from the back end is displayed on the front end
+// Append mode is adopted by default
+// action=renew 
 function updateHouseData(action) {
     var areaId = $(".filter-area>li.active").attr("area-id");
     if (undefined == areaId) areaId = "";
@@ -48,7 +48,7 @@ function updateHouseData(action) {
         house_data_querying = false;
         if ("0" == resp.errno) {
             if (0 == resp.data.total_page) {
-                $(".house-list").html("暂时没有符合您查询的房屋信息。");
+                $(".house-list").html("The housing information that meets your query is not available at present.");
             } else {
                 total_page = resp.data.total_page;
                 if ("renew" == action) {
@@ -71,21 +71,20 @@ $(document).ready(function(){
     $("#end-date").val(endDate);
     updateFilterDateDisplay();
     var areaName = queryData["aname"];
-    if (!areaName) areaName = "位置区域";
+    if (!areaName) areaName = "Location";
     $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html(areaName);
 
 
-    // 获取筛选条件中的城市区域信息
+    //Gets the city area information
     $.get("/api/v1.0/areas", function(data){
         if ("0" == data.errno) {
-            // 用户从首页跳转到这个搜索页面时可能选择了城区，所以尝试从url的查询字符串参数中提取用户选择的城区
+            // The user may have selected the city when jumping from the home page to the search page
+            //so try to extract the city selected by the user from the query string parameter of the URL
             var areaId = queryData["aid"];
-            // 如果提取到了城区id的数据
+            // extract city ID
             if (areaId) {
-                // 遍历从后端获取到的城区信息，添加到页面中
+                // Iterate through the urban area information obtained from the back end and add it to the page
                 for (var i=0; i<data.data.length; i++) {
-                    // 对于从url查询字符串参数中拿到的城区，在页面中做高亮展示
-                    // 后端获取到城区id是整型，从url参数中获取到的是字符串类型，所以将url参数中获取到的转换为整型，再进行对比
                     areaId = parseInt(areaId);
                     if (data.data[i].aid == areaId) {
                         $(".filter-area").append('<li area-id="'+ data.data[i].aid+'" class="active">'+ data.data[i].aname+'</li>');
@@ -94,31 +93,26 @@ $(document).ready(function(){
                     }
                 }
             } else {
-                // 如果url参数中没有城区信息，不需要做额外处理，直接遍历展示到页面中
+                // If there is no city information in the URL parameter, no additional processing is needed and it is displayed directly in the page
                 for (var i=0; i<data.data.length; i++) {
                     $(".filter-area").append('<li area-id="'+ data.data[i].aid+'">'+ data.data[i].aname+'</li>');
                 }
             }
-            // 在页面添加好城区选项信息后，更新展示房屋列表信息
+            // update the display listing information after you add the Good City option information to the page
             updateHouseData("renew");
-            // 获取页面显示窗口的高度
+            // Get the height of the page display window
             var windowHeight = $(window).height();
-            // 为窗口的滚动添加事件函数
+            // Add event functions for window scrolling
             window.onscroll=function(){
                 // var a = document.documentElement.scrollTop==0? document.body.clientHeight : document.documentElement.clientHeight;
                 var b = document.documentElement.scrollTop==0? document.body.scrollTop : document.documentElement.scrollTop;
                 var c = document.documentElement.scrollTop==0? document.body.scrollHeight : document.documentElement.scrollHeight;
-                // 如果滚动到接近窗口底部
+                // scroll down to near the bottom of the window
                 if(c-b<windowHeight+50){
-                    // 如果没有正在向后端发送查询房屋列表信息的请求
                     if (!house_data_querying) {
-                        // 将正在向后端查询房屋列表信息的标志设置为真，
                         house_data_querying = true;
-                        // 如果当前页面数还没到达总页数
                         if(cur_page < total_page) {
-                            // 将要查询的页数设置为当前页数加1
                             next_page = cur_page + 1;
-                            // 向后端发送请求，查询下一页房屋数据
                             updateHouseData();
                         } else {
                             house_data_querying = false;
