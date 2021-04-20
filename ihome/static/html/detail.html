@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>爱家-房间信息</title>
+    <title>Ihome-House Information</title>
     <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/css/reset.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <div class="container">
         <div class="top-bar">
             <div class="nav-bar">
-                <h3 class="page-title">房间信息</h3>
+                <h3 class="page-title">House Information</h3>
                 <a class="nav-btn fl" href="#" onclick="hrefBack();"><span><i class="fa fa-angle-left fa-2x"></i></span></a>
             </div>
         </div>
@@ -30,7 +30,7 @@
                 {{/each}}
             </ul>
             <div class="swiper-pagination"></div>
-            <div class="house-price">￥<span>{{(price/100.0).toFixed(0)}}</span>/晚</div>
+            <div class="house-price">$<span>{{(price/100.0).toFixed(0)}}</span>/per night</div>
         </script>
         <div class="detail-con">
         </div>
@@ -38,10 +38,10 @@
             <div class="detail-header layout-style">
                 <h2 class="house-title">{{house.title}}</h2>
                 <div class="landlord-pic"><img src="{{house.user_avatar}}"></div>
-                <h2 class="landlord-name">房东： <span>{{house.user_name}}</span></h2>
+                <h2 class="landlord-name">Landlord： <span>{{house.user_name}}</span></h2>
             </div>
             <div class="house-info layout-style">
-               <h3>房屋地址</h3>
+               <h3>House Address</h3>
                <ul class="house-info-list text-center">
                     <li>{{house.address}}</li>
                </ul>
@@ -50,35 +50,35 @@
                 <li>
                     <span class="icon-house"></span>
                     <div class="icon-text">
-                        <h3>出租{{house.room_count}}间</h3>
-                        <p>房屋面积:{{house.acreage}}平米</p>
-                        <p>房屋户型:{{house.unit}}</p>
+                        <h3>Rent{{house.room_count}}room</h3>
+                        <p>Size:{{house.acreage}}sq.m</p>
+                        <p>Type:{{house.unit}}</p>
                     </div>
                 </li>
                 <li>
                     <span class="icon-user"></span>
                     <div class="icon-text">
-                        <h3>宜住{{house.capacity}}人</h3>
+                        <h3>Suitable for{{house.capacity}}people</h3>
                     </div>
                 </li>
                 <li>
                     <span class="icon-bed"></span>
                     <div class="icon-text">
-                        <h3>卧床配置</h3>
+                        <h3>Bed</h3>
                         <p>{{house.beds}}</p>
                     </div>
                 </li>
             </ul>
             <div class="house-info layout-style">
-                <h3>房间详情</h3>
+                <h3>Room Detail</h3>
                 <ul class="house-info-list">
-                    <li>收取押金<span>{{(house.deposit/100.0).toFixed(0)}}</span></li>
-                    <li>最少入住天数<span>{{house.min_days}}</span></li>
-                    <li>最多入住天数<span>{{if house.max_days==0}}无限制{{else}}{{house.max_days}}{{/if}}</span></li>
+                    <li>Deposit<span>{{(house.deposit/100.0).toFixed(0)}}</span></li>
+                    <li>Minimum stay days<span>{{house.min_days}}</span></li>
+                    <li>Maximum stay days<span>{{if house.max_days==0}}No limit{{else}}{{house.max_days}}{{/if}}</span></li>
                 </ul>
             </div>
             <div class="house-facility layout-style">
-                <h3>配套设施</h3>
+                <h3>Supporting FacilitY</h3>
                 <ul class="house-facility-list clearfix">
                     <li><span class="{{if house.facilities.indexOf(1)>=0}}wirelessnetwork-ico{{else}}jinzhi-ico{{/if}}"></span>wifi</li>
                     <li><span class="{{if house.facilities.indexOf(2)>=0}}shower-ico{{else}}jinzhi-ico{{/if}}"></span>Hot shower</li>
@@ -107,7 +107,7 @@
             </div>
             {{if house.comments }}
             <div class="house-info layout-style">
-                <h3>评价信息</h3>
+                <h3>Comment</h3>
                 <ul class="house-comment-list">
                     {{ each house.comments as comment}}
                     <li>
@@ -119,9 +119,9 @@
             </div>
             {{/if}}
         </script>
-        <a class="book-house" href="">即刻预定</a>
+        <a class="book-house" href="">Book immediatly</a>
         <div class="footer">
-            <p><span><i class="fa fa-copyright"></i></span>爱家租房&nbsp;&nbsp;享受家的温馨</p>
+            <p><span><i class="fa fa-copyright"></i></span>Ihome&nbsp;&nbsp;Make it feel like your home</p>
         </div>
     </div>
     

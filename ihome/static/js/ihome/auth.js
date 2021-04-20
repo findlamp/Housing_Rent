@@ -13,20 +13,20 @@ function getCookie(name) {
 }
 
 $(document).ready(function(){
-    // 查询用户的实名认证信息
+    // Query the user's real-name authentication information
     $.get("/api/v1.0/users/auth", function(resp){
-        // 4101代表用户未登录
+        // 4101 represents that User not logged in
         if ("4101" == resp.errno) {
             location.href = "/login.html";
         } else if ("0" == resp.errno) {
-            // 如果返回的数据中real_name与id_card不为null，表示用户有填写实名信息
+            // If real_name and id_card are not null，it will represent that User has real name authentication.
             if (resp.data.real_name && resp.data.id_card) {
                 $("#real-name").val(resp.data.real_name);
                 $("#id-card").val(resp.data.id_card);
-                // 给input添加disabled属性，禁止用户修改
+                // Add a disabled property to the input to prevent the user from modifying it
                 $("#real-name").prop("disabled", true);
                 $("#id-card").prop("disabled", true);
-                // 隐藏提交保存按钮
+                // Hide the submit save button
                 $("#form-auth>input[type=submit]").hide();
             }
         } else {
@@ -34,24 +34,24 @@ $(document).ready(function(){
         }
     }, "json");
 
-    // 管理实名信息表单的提交行为
+    // Manages the submission behavior of the real-name information form
     $("#form-auth").submit(function(e){
         e.preventDefault();
-        // 如果用户没有填写完整，展示错误信息
+        // Display an error message if the user did not complete the form
         var realName = $("#real-name").val();
         var idCard = $("#id-card").val();
         if (realName == "" ||  idCard == "") {
             $(".error-msg").show();
         }
 
-        // 将表单的数据转换为json字符串
+        // Converts the form's data to a JSON string
         var data = {
             real_name: realName,
             id_card: idCard
         };
         var jsonData = JSON.stringify(data);
 
-        // 向后端发送请求
+        // Send a request to the back end
         $.ajax({
             url:"/api/v1.0/users/auth",
             type:"post",
@@ -64,7 +64,7 @@ $(document).ready(function(){
             success: function (resp) {
                 if (0 == resp.errno) {
                     $(".error-msg").hide();
-                    // 显示保存成功的提示信息
+                    // Display a successful save message
                     showSuccessMsg();
                     $("#real-name").prop("disabled", true);
                     $("#id-card").prop("disabled", true);
