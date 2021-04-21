@@ -11,6 +11,11 @@
     <link href="/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
     <link href="/static/css/ihome/main.css" rel="stylesheet">
     <link href="/static/css/ihome/orders.css" rel="stylesheet">
+
+    <style type="text/css">
+        .page-title{margin:0 auto;}
+        body{text-align: center;}
+    </style>
 </head>
 <body>
     <div class="container">
@@ -55,7 +60,7 @@
             var contact = getQueryVariable('contact')
             var money = getQueryVariable('amount')
              
-            var display = '<div class="page-title"><p> contact :' +contact + "</p>" + '<p> amount :' + money + "</p> </div>"
+            var display = '<div class="page-title"><p> ☏ contact : ' +contact + "</p>" + '<p> $ amount : ' + money + "</p> </div>"
             document.write(display)
 
 
