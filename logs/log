@@ -7832,3 +7832,452 @@ WARNING _internal.py:113  * Debugger is active!
 INFO _internal.py:113  * Debugger PIN: 682-852-118
 INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\__pycache__\\demo.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\compat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\main.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\entity.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\boltons\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\boltons\\__pycache__\\timeutils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\collection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\compat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\__pycache__\\five.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\__pycache__\\imp.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\__pycache__\\six.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\__pycache__\\shlex.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\ish.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\logz.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\type_coercion.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\decorators.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\toolz\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\itertoolz.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\functoolz.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\_signatures.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\dicttoolz.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\recipes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\curried\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\curried\\__pycache__\\operator.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\curried\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\sandbox\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\sandbox\\__pycache__\\core.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\sandbox\\__pycache__\\parallel.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\_version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\_signatures.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\cytoolz\\curried\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\cytoolz\\curried\\__pycache__\\operator.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\cytoolz\\curried\\__pycache__\\exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\_version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\base\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\base\\__pycache__\\constants.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\io.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\concurrent\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\concurrent\\futures\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\concurrent\\futures\\__pycache__\\_base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\concurrent\\futures\\__pycache__\\process.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\context.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\process.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\reduction.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\connection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\util.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\multiprocessing\\__pycache__\\queues.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\concurrent\\futures\\__pycache__\\thread.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\constants.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\path.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\distutils\\__pycache__\\spawn.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\distutils\\__pycache__\\errors.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\distutils\\__pycache__\\debug.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\distutils\\__pycache__\\log.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\std.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\utils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_monitor.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\cli.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_version.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\signals.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\conda_argparse.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\base\\__pycache__\\context.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\__pycache__\\appdirs.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\win32com\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\__pycache__\\pythoncom.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\win32\\lib\\__pycache__\\pywintypes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\win32comext\\shell\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\boltons\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\boltons\\__pycache__\\setutils.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\_vendor\\__pycache__\\frozendict.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\configuration.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\serialize.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\cyaml.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\ext\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\error.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\compat.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\reader.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:05] "[36mGET /index.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:05] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:260 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:05] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:05] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:05] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:12] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:260 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:12] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:12] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:26] "[37mGET /search.html?aid=1&aname=oakland&sd=2021-04-26&ed=2021-04-28 HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:26] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\release.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\_exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FIELD_TYPE.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\times.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\CLIENT.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\connections.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\cursors.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\__pycache__\\converters.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\MySQLdb\\constants\\__pycache__\\FLAG.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.begin_date <= %s AND ih_order_info.end_date >= %s
+INFO log.py:110 (datetime.datetime(2021, 4, 28, 0, 0), datetime.datetime(2021, 4, 26, 0, 0))
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s ORDER BY ih_house_info.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('1', 0, 2)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s) AS anon_1
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (10,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:40] "[37mGET /api/v1.0/houses?aid=1&sd=2021-04-26&ed=2021-04-28&sk=new&p=1 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('2',)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.begin_date <= %s AND ih_order_info.end_date >= %s
+INFO log.py:110 (datetime.datetime(2021, 4, 28, 0, 0), datetime.datetime(2021, 4, 26, 0, 0))
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s ORDER BY ih_house_info.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('2', 0, 2)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s) AS anon_1
+INFO log.py:110 ('2',)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (10,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:43] "[37mGET /api/v1.0/houses?aid=2&sd=2021-04-26&ed=2021-04-28&sk=new&p=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:51] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:260 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:51] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:40:51] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\flask\\__pycache__\\debughelpers.cpython-38.pyc', reloading
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.mobile = %s 
+ LIMIT %s
+INFO log.py:110 ('13307098271', 1)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:24] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:40] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:40] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:260 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:40] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:40] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:40] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:50] "[37mGET /search.html?aid=1&aname=oakland&sd=2021-04-25&ed=2021-04-29 HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:50] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.begin_date <= %s AND ih_order_info.end_date >= %s
+INFO log.py:110 (datetime.datetime(2021, 4, 29, 0, 0), datetime.datetime(2021, 4, 25, 0, 0))
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s ORDER BY ih_house_info.create_time DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('1', 0, 2)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s) AS anon_1
+INFO log.py:110 ('1',)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (10,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:41:58] "[37mGET /api/v1.0/houses?aid=1&sd=2021-04-25&ed=2021-04-29&sk=new&p=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:42:02] "[37mGET /detail.html?id=11 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:42:02] "[37mGET /static/css/ihome/detail.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:42:02] "[37mGET /static/js/ihome/detail.js HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.id = %s
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT ih_house_image.create_time AS ih_house_image_create_time, ih_house_image.update_time AS ih_house_image_update_time, ih_house_image.id AS ih_house_image_id, ih_house_image.house_id AS ih_house_image_house_id, ih_house_image.url AS ih_house_image_url 
+FROM ih_house_image 
+WHERE %s = ih_house_image.house_id
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_facility_info.create_time AS ih_facility_info_create_time, ih_facility_info.update_time AS ih_facility_info_update_time, ih_facility_info.id AS ih_facility_info_id, ih_facility_info.name AS ih_facility_info_name 
+FROM ih_facility_info, ih_house_facility 
+WHERE %s = ih_house_facility.house_id AND ih_facility_info.id = ih_house_facility.facility_id
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.house_id = %s AND ih_order_info.status = %s AND ih_order_info.comment IS NOT NULL ORDER BY ih_order_info.update_time DESC 
+ LIMIT %s
+INFO log.py:110 (11, 'COMPLETE', 30)
+INFO log.py:110 SELECT ih_environment_info.create_time AS ih_environment_info_create_time, ih_environment_info.update_time AS ih_environment_info_update_time, ih_environment_info.id AS ih_environment_info_id, ih_environment_info.area_id AS ih_environment_info_area_id, ih_environment_info.name AS ih_environment_info_name 
+FROM ih_environment_info 
+WHERE ih_environment_info.area_id = %s
+INFO log.py:110 (1,)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\__pycache__\\_globals.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\__pycache__\\__config__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\__config__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.id = %s
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (10,)
+INFO log.py:110 SELECT ih_house_image.create_time AS ih_house_image_create_time, ih_house_image.update_time AS ih_house_image_update_time, ih_house_image.id AS ih_house_image_id, ih_house_image.house_id AS ih_house_image_house_id, ih_house_image.url AS ih_house_image_url 
+FROM ih_house_image 
+WHERE %s = ih_house_image.house_id
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_facility_info.create_time AS ih_facility_info_create_time, ih_facility_info.update_time AS ih_facility_info_update_time, ih_facility_info.id AS ih_facility_info_id, ih_facility_info.name AS ih_facility_info_name 
+FROM ih_facility_info, ih_house_facility 
+WHERE %s = ih_house_facility.house_id AND ih_facility_info.id = ih_house_facility.facility_id
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.house_id = %s AND ih_order_info.status = %s AND ih_order_info.comment IS NOT NULL ORDER BY ih_order_info.update_time DESC 
+ LIMIT %s
+INFO log.py:110 (11, 'COMPLETE', 30)
+INFO log.py:110 SELECT ih_environment_info.create_time AS ih_environment_info_create_time, ih_environment_info.update_time AS ih_environment_info_update_time, ih_environment_info.id AS ih_environment_info_id, ih_environment_info.area_id AS ih_environment_info_area_id, ih_environment_info.name AS ih_environment_info_name 
+FROM ih_environment_info 
+WHERE ih_environment_info.area_id = %s
+INFO log.py:110 (1,)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\multiarray.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\overrides.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\compat\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\compat\\__pycache__\\_inspect.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\compat\\__pycache__\\py3k.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\umath.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\numerictypes.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_string_helpers.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_type_aliases.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_dtype.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\numeric.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\shape_base.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_asarray.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\fromnumeric.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_methods.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_exceptions.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\core\\__pycache__\\_ufunc_config.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('5',)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.begin_date <= %s AND ih_order_info.end_date >= %s
+INFO log.py:110 (datetime.datetime(2021, 4, 29, 0, 0), datetime.datetime(2021, 4, 25, 0, 0))
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s ORDER BY ih_house_info.order_count DESC 
+ LIMIT %s, %s
+INFO log.py:110 ('5', 0, 2)
+INFO log.py:110 SELECT count(*) AS count_1 
+FROM (SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.area_id = %s) AS anon_1
+INFO log.py:110 ('5',)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (11,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:42:58] "[37mGET /api/v1.0/houses?aid=5&sd=2021-04-25&ed=2021-04-29&sk=booking&p=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 15:43:01] "[37mGET /detail.html?id=15 HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_house_info.create_time AS ih_house_info_create_time, ih_house_info.update_time AS ih_house_info_update_time, ih_house_info.id AS ih_house_info_id, ih_house_info.user_id AS ih_house_info_user_id, ih_house_info.area_id AS ih_house_info_area_id, ih_house_info.title AS ih_house_info_title, ih_house_info.price AS ih_house_info_price, ih_house_info.address AS ih_house_info_address, ih_house_info.room_count AS ih_house_info_room_count, ih_house_info.acreage AS ih_house_info_acreage, ih_house_info.unit AS ih_house_info_unit, ih_house_info.capacity AS ih_house_info_capacity, ih_house_info.beds AS ih_house_info_beds, ih_house_info.deposit AS ih_house_info_deposit, ih_house_info.min_days AS ih_house_info_min_days, ih_house_info.max_days AS ih_house_info_max_days, ih_house_info.order_count AS ih_house_info_order_count, ih_house_info.index_image_url AS ih_house_info_index_image_url 
+FROM ih_house_info 
+WHERE ih_house_info.id = %s
+INFO log.py:110 (15,)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (11,)
+INFO log.py:110 SELECT ih_house_image.create_time AS ih_house_image_create_time, ih_house_image.update_time AS ih_house_image_update_time, ih_house_image.id AS ih_house_image_id, ih_house_image.house_id AS ih_house_image_house_id, ih_house_image.url AS ih_house_image_url 
+FROM ih_house_image 
+WHERE %s = ih_house_image.house_id
+INFO log.py:110 (15,)
+INFO log.py:110 SELECT ih_facility_info.create_time AS ih_facility_info_create_time, ih_facility_info.update_time AS ih_facility_info_update_time, ih_facility_info.id AS ih_facility_info_id, ih_facility_info.name AS ih_facility_info_name 
+FROM ih_facility_info, ih_house_facility 
+WHERE %s = ih_house_facility.house_id AND ih_facility_info.id = ih_house_facility.facility_id
+INFO log.py:110 (15,)
+INFO log.py:110 SELECT ih_order_info.create_time AS ih_order_info_create_time, ih_order_info.update_time AS ih_order_info_update_time, ih_order_info.id AS ih_order_info_id, ih_order_info.user_id AS ih_order_info_user_id, ih_order_info.house_id AS ih_order_info_house_id, ih_order_info.begin_date AS ih_order_info_begin_date, ih_order_info.end_date AS ih_order_info_end_date, ih_order_info.days AS ih_order_info_days, ih_order_info.house_price AS ih_order_info_house_price, ih_order_info.amount AS ih_order_info_amount, ih_order_info.status AS ih_order_info_status, ih_order_info.comment AS ih_order_info_comment, ih_order_info.trade_no AS ih_order_info_trade_no 
+FROM ih_order_info 
+WHERE ih_order_info.house_id = %s AND ih_order_info.status = %s AND ih_order_info.comment IS NOT NULL ORDER BY ih_order_info.update_time DESC 
+ LIMIT %s
+INFO log.py:110 (15, 'COMPLETE', 30)
+INFO log.py:110 SELECT ih_environment_info.create_time AS ih_environment_info_create_time, ih_environment_info.update_time AS ih_environment_info_update_time, ih_environment_info.id AS ih_environment_info_id, ih_environment_info.area_id AS ih_environment_info_area_id, ih_environment_info.name AS ih_environment_info_name 
+FROM ih_environment_info 
+WHERE ih_environment_info.area_id = %s
+INFO log.py:110 (5,)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\lib\\__pycache__\\type_check.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\lib\\__pycache__\\ufunclike.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\lib\\__pycache__\\index_tricks.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\matrixlib\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\matrixlib\\__pycache__\\defmatrix.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\linalg.cpython-38.pyc', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\numpy\\lib\\__pycache__\\twodim_base.cpython-38.pyc', reloading
