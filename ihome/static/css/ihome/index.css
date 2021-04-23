@@ -33,8 +33,7 @@ body {
     height: 40px;
     line-height: 28px;
     margin-right: 10px;
-    font-size: 16px;
-    text-align: center;
+    font-size: 10px;
 }
 .search-btn, .search-btn:hover {
     width: 100%;
