@@ -3,9 +3,9 @@
 from flask import Blueprint
 
 
-# 创建蓝图对象
+# Creating Blueprint Objects
 api = Blueprint("api_1_0", __name__)
 
 
-# 导入蓝图的视图
+# Import the view of the blueprint
 from . import demo, passport, profile, houses, orders,pay

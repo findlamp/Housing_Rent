@@ -19,43 +19,43 @@ def listToJson(lst):
     import numpy as np
     keys = [str(x) for x in np.arange(len(lst))]
     list_json = dict(zip(keys, lst))
-    str_json = json.dumps(list_json, indent=2, ensure_ascii=False)  # json转为string
+    str_json = json.dumps(list_json, indent=2, ensure_ascii=False)  # json to string
     return str_json
 
 
 @api.route("/areas")
 def get_area_info():
-    """获取城区信息"""
-    #尝试从redis中读取数据
+    """get the location information"""
+    #Attempting to read data from Redis
     try:
         resp_json = redis_store.get("area_info")
     except Exception as e:
         current_app.logger.error(e)
     else:
         if resp_json is not None:
-            # redis有缓存数据
+            # redis have cached data
             current_app.logger.info("hit redis area_info")
             return resp_json, 200, {"Content-Type": "application/json"}
     
-    #查询数据库，读取城区信息
+    #Query database, read the city information
     try:
-        print('查询数据库 读取信息')
+        print('Query database, read information')
         area_li = Area.query.all()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
     area_dict_li = []
  
-    # 将对象转换为字典
+    # Converts the object to a dictionary
     for area in area_li:
         area_dict_li.append(area.to_dict())
-        print("数据{}".format(area.to_dict()))
-    # 将数据转换为json字符串
+        print("data{}".format(area.to_dict()))
+    # Convert the data to a JSON string
     resp_dict = dict(errno=RET.OK, errmsg="OK", data=area_dict_li)
     resp_json = json.dumps(resp_dict)
 
-    # 将数据保存到redis中
+    # Save the data to Redis
     try:
         redis_store.setex("area_info", constants.AREA_INFO_REDIS_CACHE_EXPIRES, resp_json)
     except Exception as e:
@@ -67,8 +67,7 @@ def get_area_info():
 @api.route("/houses/info", methods=["POST"])
 @login_required
 def save_house_info():
-    """保存房屋的基本信息
-    前端发送过来的json数据
+    """preserve the house information
     {
         "title":"",
         "price":"",
@@ -85,46 +84,46 @@ def save_house_info():
         "facility":["7","8"]
     }
     """
-    # 获取数据
+    # get data
     user_id = g.user_id
     house_data = request.get_json()
 
-    title = house_data.get("title")  # 房屋名称标题
-    price = house_data.get("price")  # 房屋单价
-    area_id = house_data.get("area_id")  # 房屋所属城区的编号
-    address = house_data.get("address")  # 房屋地址
-    room_count = house_data.get("room_count")  # 房屋包含的房间数目
-    acreage = house_data.get("acreage")  # 房屋面积
-    unit = house_data.get("unit")  # 房屋布局（几室几厅)
-    capacity = house_data.get("capacity")  # 房屋容纳人数
-    beds = house_data.get("beds")  # 房屋卧床数目
-    deposit = house_data.get("deposit")  # 押金
-    min_days = house_data.get("min_days")  # 最小入住天数
-    max_days = house_data.get("max_days")  # 最大入住天数
+    title = house_data.get("title")  # house title
+    price = house_data.get("price")  # Housing price
+    area_id = house_data.get("area_id")  # location id
+    address = house_data.get("address")  # address
+    room_count = house_data.get("room_count")  # number of rooms
+    acreage = house_data.get("acreage")  # size of room
+    unit = house_data.get("unit")  # number of room
+    capacity = house_data.get("capacity")  # number of people living 
+    beds = house_data.get("beds")  # number of beds
+    deposit = house_data.get("deposit")  # deposit
+    min_days = house_data.get("min_days")  # minimum stay days
+    max_days = house_data.get("max_days")  # maximum stay days
 
-    # 校验参数
+    # Calibration parameters
     if not all([title, price, area_id, address, room_count, acreage, unit, capacity, beds, deposit, min_days, max_days]):
-        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+        return jsonify(errno=RET.PARAMERR, errmsg="Incomplete Parameter")
 
-    # 判断金额是否正确
+    # Determine if the amount is correct
     try:
         price = int(float(price) * 100)
         deposit = int(float(deposit) * 100)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+        return jsonify(errno=RET.PARAMERR, errmsg="Wrong Parameter")
 
-    # 判断城区id是否存在
+    # Determine if the city ID exists
     try:
         area = Area.query.get(area_id)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
     if area is None:
-        return jsonify(errno=RET.NODATA, errmsg="城区信息有误")
+        return jsonify(errno=RET.NODATA, errmsg="Incorrect information of district")
 
-    # 保存房屋信息
+    # preserve house information
     house = House(
         user_id=user_id,
         area_id=area_id,
@@ -141,10 +140,10 @@ def save_house_info():
         max_days=max_days
     )
 
-    # 处理房屋的设施信息
+    # facility
     facility_ids = house_data.get("facility")
 
-    # 如果用户勾选了设施信息，再保存数据库
+    # If the user has checked the facility information, save the database
     if facility_ids:
         # ["7","8"]
         try:
@@ -152,11 +151,11 @@ def save_house_info():
             facilities = Facility.query.filter(Facility.id.in_(facility_ids)).all()
         except Exception as e:
             current_app.logger.error(e)
-            return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+            return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
         if facilities:
-            # 表示有合法的设施数据
-            # 保存设施数据
+            # facility information
+            # perserve facility information
             house.facilities = facilities
 
     try:
@@ -165,51 +164,50 @@ def save_house_info():
     except Exception as e:
         current_app.logger.error(e)
         db.session.rollback()
-        return jsonify(errno=RET.DBERR, errmsg="保存数据失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to save data")
 
-    # 保存数据成功
+    # preserve successfully
     return jsonify(errno=RET.OK, errmsg="OK", data={"house_id": house.id})
 
 
 @api.route("/houses/image", methods=["POST","GET"])
 @login_required
 def save_house_image():
-    """保存房屋的图片
-    参数 图片 房屋的id
+    """preserve house picture id
     """
     image_file = request.files.get("house_image")
     house_id = request.form.get("house_id")
 
     if not all([image_file, house_id]):
-        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+        return jsonify(errno=RET.PARAMERR, errmsg="parameter error")
 
-    # 判断house_id正确性
+    # whether house_id is correct
     try:
         house = House.query.get(house_id)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
     if house is None:  # if not house:
-        return jsonify(errno=RET.NODATA, errmsg="房屋不存在")
+        return jsonify(errno=RET.NODATA, errmsg="unexistent house")
 
 
-    # 保存图片static image 下
+    # perserve picture in static image
     try:
-        # 通过时间戳获得uuid
+        # get uuid
         file_name = str(uuid.uuid1())+'.png'
         basedir = os.getcwd()
         image_path = os.path.join(basedir,'ihome','static','images',file_name)
         image_file.save(image_path)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.THIRDERR, errmsg="保存图片失败")
+        return jsonify(errno=RET.THIRDERR, errmsg="Failed to save image")
 
-    # 保存图片信息到数据库中
+    # Save the image information to the database
     house_image = HouseImage(house_id=house_id, url=file_name)
     db.session.add(house_image)
 
-    # 处理房屋的主图片
+    # Process the main image of the house
     if not house.index_image_url:
         house.index_image_url = file_name
         db.session.add(house)
@@ -219,7 +217,7 @@ def save_house_image():
     except Exception as e:
         current_app.logger.error(e)
         db.session.rollback()
-        return jsonify(errno=RET.DBERR, errmsg="保存图片数据异常")
+        return jsonify(errno=RET.DBERR, errmsg="Exception saving image data")
 
     image_url = constants.QINIU_URL_DOMAIN + file_name
 
@@ -229,7 +227,7 @@ def save_house_image():
 @api.route("/user/houses", methods=["GET"])
 @login_required
 def get_user_houses():
-    """获取房东发布的房源信息条目"""
+    """get information"""
     user_id = g.user_id
 
     try:
@@ -238,9 +236,9 @@ def get_user_houses():
         houses = user.houses
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="获取数据失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to get data")
 
-    # 将查询到的房屋信息转换为字典存放到列表中
+    # Convert the searched house information into a dictionary and store it in the list
     houses_list = []
     if houses:
         for house in houses:
@@ -250,8 +248,8 @@ def get_user_houses():
 
 @api.route("/houses/index", methods=["GET"])
 def get_house_index():
-    """获取主页幻灯片展示的房屋基本信息"""
-    # 从缓存中尝试获取数据
+    """get information"""
+    # Try to fetch data from the cache
     try:
         ret = redis_store.get("home_page_data")
     except Exception as e:
@@ -260,27 +258,27 @@ def get_house_index():
 
     if ret:
         current_app.logger.info("hit house index info redis")
-        # 因为redis中保存的是json字符串，所以直接进行字符串拼接返回
+        # Because Redis saves the JSON string, so the string concatenation is directly returned
         return '{"errno":0, "errmsg":"OK", "data":%s}' % ret, 200, {"Content-Type": "application/json"}
     else:
         try:
-            # 查询数据库，返回房屋订单数目最多的5条数据
+            #Query database to return the 5 items with the highest number of house orders
             houses = House.query.order_by(House.order_count.desc()).limit(constants.HOME_PAGE_MAX_HOUSES)
         except Exception as e:
             current_app.logger.error(e)
-            return jsonify(errno=RET.DBERR, errmsg="查询数据失败")
+            return jsonify(errno=RET.DBERR, errmsg="Query data failed")
 
         if not houses:
-            return jsonify(errno=RET.NODATA, errmsg="查询无数据")
+            return jsonify(errno=RET.NODATA, errmsg="Query no data")
 
         houses_list = []
         for house in houses:
-            # 如果房屋未设置主图片，则跳过
+            # If no picture
             if not house.index_image_url:
                 continue
             houses_list.append(house.to_basic_dict())
 
-        # 将数据转换为json，并保存到redis缓存
+        # Convert the data to JSON and save it to the Redis cache
         json_houses = json.dumps(houses_list)  # "[{},{},{}]"
         try:
             redis_store.setex("home_page_data", constants.HOME_PAGE_DATA_REDIS_EXPIRES, json_houses)
@@ -292,36 +290,38 @@ def get_house_index():
 
 @api.route("/houses/<int:house_id>", methods=["GET"])
 def get_house_detail(house_id):
-    """获取房屋详情"""
-    # 前端在房屋详情页面展示时，如果浏览页面的用户不是该房屋的房东，则展示预定按钮，否则不展示，
-    # 所以需要后端返回登录用户的user_id
-    # 尝试获取用户登录的信息，若登录，则返回给前端登录用户的user_id，否则返回user_id=-1
+    """gey information"""
+    # When the front end is displayed on the house details page,
+    # if the user browsing the page is not the landlord of the house
+    #  the reservation button will be displayed. Otherwise
+    #  the front end will not be displayed.
+    # So the backend needs to return the user_id of the logged-in user
     user_id = session.get("user_id", "-1")
-    # 校验参数
+    # Calibration parameters
     if not house_id:
-        return jsonify(errno=RET.PARAMERR, errmsg="参数确实")
+        return jsonify(errno=RET.PARAMERR, errmsg="parameter determination ")
 
     # 查询数据库
     try:
         house = House.query.get(house_id)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="查询数据失败")
+        return jsonify(errno=RET.DBERR, errmsg="Query data failed")
 
     if not house:
-        return jsonify(errno=RET.NODATA, errmsg="房屋不存在")
+        return jsonify(errno=RET.NODATA, errmsg="The house doesn't exist")
 
-    # 将房屋对象数据转换为字典
+    # Converts house object data to a dictionary
     try:
         house_data = house.to_full_dict()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DATAERR, errmsg="数据出错")
+        return jsonify(errno=RET.DATAERR, errmsg="Data error")
 
-    # 转换为json格式
+    # Convert to JSON format
     json_house = json.dumps(house_data)
 
-    # 通过area信息查询地理信息
+    # Query geographic information through the AREA information
     area_id = house_data['area_id']
     environment = Environment.query.filter(Environment.area_id == area_id).all()
     environment_data = []
@@ -329,7 +329,7 @@ def get_house_detail(house_id):
         environment_data.append(item.name)
     json_environment = listToJson(environment_data)
 
-    # 通过area信息查询犯罪信息
+    # Use the AREA information to query crime information
     criminal = Criminal.query.filter(Environment.area_id == area_id).all()
     criminal_data = {}
     for item in criminal:
@@ -348,14 +348,14 @@ def get_house_detail(house_id):
 # GET /api/v1.0/houses?sd=2017-12-01&ed=2017-12-31&aid=10&sk=new&p=1
 @api.route("/houses")
 def get_house_list():
-    """获取房屋的列表信息（搜索页面）"""
-    start_date = request.args.get("sd", "")  # 用户想要的起始时间
-    end_date = request.args.get("ed", "")  # 用户想要的结束时间
-    area_id = request.args.get("aid", "")  # 区域编号
-    sort_key = request.args.get("sk", "new")  # 排序关键字
-    page = request.args.get("p")  # 页数
+    """get inforamtion list"""
+    start_date = request.args.get("sd", "")  # chechin time
+    end_date = request.args.get("ed", "")  # check out time
+    area_id = request.args.get("aid", "")  # loaction id
+    sort_key = request.args.get("sk", "new")  # key
+    page = request.args.get("p")  # page
 
-    # 处理时间
+    # time to deal with
     try:
         if start_date:
             start_date = datetime.strptime(start_date, "%Y-%m-%d")
@@ -367,24 +367,24 @@ def get_house_list():
             assert start_date <= end_date
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.PARAMERR, errmsg="日期参数有误")
+        return jsonify(errno=RET.PARAMERR, errmsg="The date parameter is incorrect")
 
-    # 判断区域id
+    # location id
     if area_id:
         try:
             area = Area.query.get(area_id)
         except Exception as e:
             current_app.logger.error(e)
-            return jsonify(errno=RET.PARAMERR, errmsg="区域参数有误")
+            return jsonify(errno=RET.PARAMERR, errmsg="Incorrect zone parameter")
 
-    # 处理页数
+    # deal with page
     try:
         page = int(page)
     except Exception as e:
         current_app.logger.error(e)
         page = 1
 
-    # 获取缓存数据
+    # Get cached data
     redis_key = "house_%s_%s_%s_%s" % (start_date, end_date, area_id, sort_key)
     try:
         resp_json = redis_store.hget(redis_key, page)
@@ -394,16 +394,16 @@ def get_house_list():
         if resp_json:
             return resp_json, 200, {"Content-Type": "application/json"}
 
-    # 过滤条件的参数列表容器
+    # The parameter list container for the filter condition
     filter_params = []
 
-    # 填充过滤参数
-    # 时间条件
+    # Filling filter parameters
+    # time conditions
     conflict_orders = None
 
     try:
         if start_date and end_date:
-            # 查询冲突的订单
+            # Query for conflicting orders
             conflict_orders = Order.query.filter(Order.begin_date <= end_date, Order.end_date >= start_date).all()
         elif start_date:
             conflict_orders = Order.query.filter(Order.end_date >= start_date).all()
@@ -411,69 +411,68 @@ def get_house_list():
             conflict_orders = Order.query.filter(Order.begin_date <= end_date).all()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
     if conflict_orders:
-        # 从订单中获取冲突的房屋id
+        # Gets the conflicting house ID from the order
         conflict_house_ids = [order.house_id for order in conflict_orders]
 
-        # 如果冲突的房屋id不为空，向查询参数中添加条件
+        # If the conflicting house ID is not empty, add a condition to the query parameter
         if conflict_house_ids:
             filter_params.append(House.id.notin_(conflict_house_ids))
 
-    # 区域条件
+    # area condition 
     if area_id:
         filter_params.append(House.area_id == area_id)
 
-    # 查询数据库
-    # 补充排序条件
-    if sort_key == "booking":  # 入住做多
+    # query database
+    if sort_key == "booking":  # maximum
         house_query = House.query.filter(*filter_params).order_by(House.order_count.desc())
     elif sort_key == "price-inc":
         house_query = House.query.filter(*filter_params).order_by(House.price.asc())
     elif sort_key == "price-des":
         house_query = House.query.filter(*filter_params).order_by(House.price.desc())
-    else:  # 新旧
+    else:  # new old
         house_query = House.query.filter(*filter_params).order_by(House.create_time.desc())
 
-    # 处理分页
+    # Handle paging
     try:
-        #                               当前页数          每页数据量                              自动的错误输出
+        # page
         page_obj = house_query.paginate(page=page, per_page=constants.HOUSE_LIST_PAGE_CAPACITY, error_out=False)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
-    # 获取页面数据
+    # Get page data
     house_li = page_obj.items
     houses = []
     for house in house_li:
         houses.append(house.to_basic_dict())
 
-    # 获取总页数
+    # Get page number
     total_page = page_obj.pages
 
     resp_dict = dict(errno=RET.OK, errmsg="OK", data={"total_page": total_page, "houses": houses, "current_page": page})
     resp_json = json.dumps(resp_dict)
 
     if page <= total_page:
-        # 设置缓存数据
+        # Set cache data
         redis_key = "house_%s_%s_%s_%s" % (start_date, end_date, area_id, sort_key)
-        # 哈希类型
+        # Hash type
         try:
             # redis_store.hset(redis_key, page, resp_json)
             # redis_store.expire(redis_key, constants.HOUES_LIST_PAGE_REDIS_CACHE_EXPIRES)
 
-            # 创建redis管道对象，可以一次执行多个语句
+            # Create a Redis pipe object that can execute multiple statements at once
             pipeline = redis_store.pipeline()
 
-            # 开启多个语句的记录
+            # Enables recording of multiple statements
             pipeline.multi()
 
             pipeline.hset(redis_key, page, resp_json)
             pipeline.expire(redis_key, constants.HOUES_LIST_PAGE_REDIS_CACHE_EXPIRES)
 
-            # 执行语句
+            # execute statement
             pipeline.execute()
         except Exception as e:
             current_app.logger.error(e)

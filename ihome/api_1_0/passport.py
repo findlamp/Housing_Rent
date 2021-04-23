@@ -11,11 +11,9 @@ import re
 
 @api.route("/users", methods=["POST"])
 def register():
-    """注册
-    请求的参数： 手机号、短信验证码、密码、确认密码
-    参数格式：json
+    """signup
     """
-    # 获取请求的json数据，返回字典
+    # Gets the requested JSON data and returns the dictionary
     req_dict = request.get_json()
 
     mobile = req_dict.get("mobile")
@@ -23,147 +21,147 @@ def register():
     password = req_dict.get("password")
     password2 = req_dict.get("password2")
 
-    # 校验参数
+    # Calibration parameters
     #if not all([mobile, sms_code, password, password2]):
-        #return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+        #return jsonify(errno=RET.PARAMERR, errmsg="Parameter Incomplete")
     if  not all([mobile, password, password2]):
-        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
-    # 判断手机号格式
+        return jsonify(errno=RET.PARAMERR, errmsg="Parameter Incomplete")
+    # Determine the format of the phone number
     
     if not re.match(r"1[34578]\d{9}", mobile):
-        # 表示格式不对
-        return jsonify(errno=RET.PARAMERR, errmsg="手机号格式错误")
+        # wrong format
+        return jsonify(errno=RET.PARAMERR, errmsg="The format of mobile phone number is wrong")
     
 
     if password != password2:
-        return jsonify(errno=RET.PARAMERR, errmsg="两次密码不一致")
+        return jsonify(errno=RET.PARAMERR, errmsg="The two passwords don't match")
 
-    # 从redis中取出短信验证码
+    # Retrieve SMS verification code from Redis
     '''
     try:
         real_sms_code = redis_store.get("sms_code_%s" % mobile)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="读取真实短信验证码异常")
+        return jsonify(errno=RET.DBERR, errmsg="Error reading real SMS CAPTCHA")
 
-    # 判断短信验证码是否过期
+    # Determine whether the SMS verification code is expired
     if real_sms_code is None:
-        return jsonify(errno=RET.NODATA, errmsg="短信验证码失效")
+        return jsonify(errno=RET.NODATA, errmsg="The SMS verification code is invalid")
 
-    # 删除redis中的短信验证码，防止重复使用校验
+    # Remove SMS verification codes in Redis to prevent duplicate validation
     try:
         redis_store.delete("sms_code_%s" % mobile)
     except Exception as e:
         current_app.logger.error(e)
 
-    # 判断用户填写短信验证码的正确性
+    # Judge the correctness of the short message verification code filled by the user
     if real_sms_code != sms_code:
-        return jsonify(errno=RET.DATAERR, errmsg="短信验证码错误")
+        return jsonify(errno=RET.DATAERR, errmsg="SMS verification code error")
     '''
-    # 判断用户的手机号是否注册过
+    # Determine whether the user's mobile phone number has been registered
     # try:
     #     user = User.query.filter_by(mobile=mobile).first()
     # except Exception as e:
     #     current_app.logger.error(e)
-    #     return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+    #     return jsonify(errno=RET.DBERR, errmsg="Database exception")
     # else:
     #     if user is not None:
-    #         # 表示手机号已存在
-    #         return jsonify(errno=RET.DATAEXIST, errmsg="手机号已存在")
+    #         # existent phone number
+    #         return jsonify(errno=RET.DATAEXIST, errmsg="existent phone number")
 
-    # 盐值   salt
+    #    salt
 
-    #  注册
-    #  用户1   password="123456" + "abc"   sha1   abc$hxosifodfdoshfosdhfso
-    #  用户2   password="123456" + "def"   sha1   def$dfhsoicoshdoshfosidfs
+    #  signup
+    #  user1   password="123456" + "abc"   sha1   abc$hxosifodfdoshfosdhfso
+    #  user2   password="123456" + "def"   sha1   def$dfhsoicoshdoshfosidfs
     #
-    # 用户登录  password ="123456"  "abc"  sha256      sha1   hxosufodsofdihsofho
+    # login  password ="123456"  "abc"  sha256      sha1   hxosufodsofdihsofho
 
-    # 保存用户的注册数据到数据库中
+    # Save the user's registration data to the database
     user = User(name=mobile, mobile=mobile)
     # user.generate_password_hash(password)
 
-    user.password = password  # 设置属性
+    user.password = password  # set attributes
 
     try:
         db.session.add(user)
         db.session.commit()
     except IntegrityError as e:
-        # 数据库操作错误后的回滚
+        # A rollback after a database operation error
         db.session.rollback()
-        # 表示手机号出现了重复值，即手机号已注册过
+        # It indicates that the phone number has a duplicate value
+        #  the phone number has been registered
         current_app.logger.error(e)
-        return jsonify(errno=RET.DATAEXIST, errmsg="手机号已存在")
+        return jsonify(errno=RET.DATAEXIST, errmsg="existent phone number")
     except Exception as e:
         db.session.rollback()
-        # 表示手机号出现了重复值，即手机号已注册过
+        # It indicates that the phone number has a duplicate value,
+        # the phone number has been registered
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="查询数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Query Database Exception")
 
-    # 保存登录状态到session中
+    # Save the login state to the session
     session["name"] = mobile
     session["mobile"] = mobile
     session["user_id"] = user.id
 
-    # 返回结果
-    return jsonify(errno=RET.OK, errmsg="注册成功")
+    # reture result
+    return jsonify(errno=RET.OK, errmsg="registered successfully ")
 
 
 @api.route("/sessions", methods=["POST"])
 def login():
-    """用户登录
-    参数： 手机号、密码， json
+    """login
     """
-    # 获取参数
+    # get parameters
     req_dict = request.get_json()
     mobile = req_dict.get("mobile")
     password = req_dict.get("password")
 
-    # 校验参数
-    # 参数完整的校验
+    # check parameters
     if not all([mobile, password]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
 
-    # 手机号的格式
+    # phone number format
     if not re.match(r"1[34578]\d{9}", mobile):
         return jsonify(errno=RET.PARAMERR, errmsg="手机号格式错误")
 
-    # 判断错误次数是否超过限制，如果超过限制，则返回
-    # redis记录： "access_nums_请求的ip": "次数"
-    user_ip = request.remote_addr  # 用户的ip地址
+    # Determine if the number of errors exceeded the limit
+    user_ip = request.remote_addr  # ip address
     try:
         access_nums = redis_store.get("access_num_%s" % user_ip)
     except Exception as e:
         current_app.logger.error(e)
     else:
         if access_nums is not None and int(access_nums) >= constants.LOGIN_ERROR_MAX_TIMES:
-            return jsonify(errno=RET.REQERR, errmsg="错误次数过多，请稍后重试")
+            return jsonify(errno=RET.REQERR, errmsg="Too many errors, please try again later")
 
-    # 从数据库中根据手机号查询用户的数据对象
+    # Query the user's data object from the database based on the phone number
     try:
         user = User.query.filter_by(mobile=mobile).first()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="获取用户信息失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to obtain user information")
 
-    # 用数据库的密码与用户填写的密码进行对比验证
+    # Use the database password and the user to fill in the password for comparison verification
     if user is None or not user.check_password(password):
-        # 如果验证失败，记录错误次数，返回信息
+        #If validation fails, log the number of errors and return a message
         try:
-            # redis的incr可以对字符串类型的数字数据进行加一操作，如果数据一开始不存在，则会初始化为1
+            # Redis incr can add one to string numeric data
+            #  initializing it to 1 if the data does not exist to begin with
             redis_store.incr("access_num_%s" % user_ip)
             redis_store.expire("access_num_%s" % user_ip, constants.LOGIN_ERROR_FORBID_TIME)
         except Exception as e:
             current_app.logger.error(e)
 
-        return jsonify(errno=RET.DATAERR, errmsg="用户名或密码错误")
+        return jsonify(errno=RET.DATAERR, errmsg="Incorrect user name or password")
 
-    # 如果验证相同成功，保存登录状态， 在session中
+    # If the validation is equally successful, save the login status in the session
     session["name"] = user.name
     session["mobile"] = user.mobile
     session["user_id"] = user.id
 
-    return jsonify(errno=RET.OK, errmsg="登录成功")
+    return jsonify(errno=RET.OK, errmsg="login successfully")
 
 
 @api.route("/session", methods=["GET"])

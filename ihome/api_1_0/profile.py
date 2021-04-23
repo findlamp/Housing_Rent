@@ -13,70 +13,70 @@ import uuid
 @api.route("/users/avatar", methods=["POST"])
 @login_required
 def set_user_avatar():
-    """设置用户的头像
-    参数： 图片(多媒体表单格式)  用户id (g.user_id)
+    """user_id
     """
-    # 装饰器的代码中已经将user_id保存到g对象中，所以视图中可以直接读取
+    # The user_id is already stored in the G object in the decorator code
+    # so it can be read directly from the view
     user_id = g.user_id
 
-    # 获取图片
+    # get picture
     image_file = request.files.get("avatar")
 
     if image_file is None:
-        return jsonify(errno=RET.PARAMERR, errmsg="未上传图片")
+        return jsonify(errno=RET.PARAMERR, errmsg="Image not uploaded")
 
 
-    # 调用七牛上传图片, 返回文件名 TODO 改为本地存储
+    # Call Qiniu upload pictures, return the file name TODO to local storage
     try:
-        # 通过时间戳获得uuid
+        # Get the UUID from the timestamp
         file_name = str(uuid.uuid1())+'.png'
         basedir = os.getcwd()
         image_path = os.path.join(basedir,'ihome','static','images',file_name)
         image_file.save(image_path)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.THIRDERR, errmsg="上传图片失败")
+        return jsonify(errno=RET.THIRDERR, errmsg="Image upload failed")
 
-    # 保存文件名到数据库中
+    # Save the file name to the database
     try:
         User.query.filter_by(id=user_id).update({"avatar_url": file_name})
         db.session.commit()
     except Exception as e:
         db.session.rollback()
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="保存图片信息失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to save image information")
 
     avatar_url = constants.QINIU_URL_DOMAIN + file_name
-    # 保存成功返回
-    return jsonify(errno=RET.OK, errmsg="保存成功", data={"avatar_url": avatar_url})
+    # save successfully 
+    return jsonify(errno=RET.OK, errmsg="save successfully ", data={"avatar_url": avatar_url})
 
 
 @api.route("/users/name", methods=["PUT"])
 @login_required
 def change_user_name():
-    """修改用户名"""
-    # 使用了login_required装饰器后，可以从g对象中获取用户user_id
+    """change username"""
+    # With the login_required decorator, you can get the user user_id from the g object
     user_id = g.user_id
 
-    # 获取用户想要设置的用户名
+    # Gets the user name that the user wants to set
     req_data = request.get_json()
     if not req_data:
-        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+        return jsonify(errno=RET.PARAMERR, errmsg="Parameter Incomplete")
 
-    name = req_data.get("name")  # 用户想要设置的名字
+    name = req_data.get("name")  # set name
     if not name:
-        return jsonify(errno=RET.PARAMERR, errmsg="名字不能为空")
+        return jsonify(errno=RET.PARAMERR, errmsg="Names cannot be empty")
 
-    # 保存用户昵称name，并同时判断name是否重复（利用数据库的唯一索引)
+    # Save the user nickname name and determine if the name is duplicated (using the unique index of the database)
     try:
         User.query.filter_by(id=user_id).update({"name": name})
         db.session.commit()
     except Exception as e:
         current_app.logger.error(e)
         db.session.rollback()
-        return jsonify(errno=RET.DBERR, errmsg="设置用户错误")
+        return jsonify(errno=RET.DBERR, errmsg="Set user error")
 
-    # 修改session数据中的name字段
+    # Modify the name field in the session data
     session["name"] = name
     return jsonify(errno=RET.OK, errmsg="OK", data={"name": name})
 
@@ -84,17 +84,17 @@ def change_user_name():
 @api.route("/user", methods=["GET"])
 @login_required
 def get_user_profile():
-    """获取个人信息"""
+    """get user information"""
     user_id = g.user_id
-    # 查询数据库获取个人信息
+    # query database to get user information
     try:
         user = User.query.get(user_id)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="获取用户信息失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to obtain user information")
 
     if user is None:
-        return jsonify(errno=RET.NODATA, errmsg="无效操作")
+        return jsonify(errno=RET.NODATA, errmsg="invalid operation")
 
     return jsonify(errno=RET.OK, errmsg="OK", data=user.to_dict())
 
@@ -102,18 +102,18 @@ def get_user_profile():
 @api.route("/users/auth", methods=["GET"])
 @login_required
 def get_user_auth():
-    """获取用户的实名认证信息"""
+    """Get the user's real-name authentication information"""
     user_id = g.user_id
 
-    # 在数据库中查询信息
+    # query informaiton in the database
     try:
         user = User.query.get(user_id)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="获取用户实名信息失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to obtain user real name information")
 
     if user is None:
-        return jsonify(errno=RET.NODATA, errmsg="无效操作")
+        return jsonify(errno=RET.NODATA, errmsg="invalid operation")
 
     return jsonify(errno=RET.OK, errmsg="OK", data=user.auth_to_dict())
 
@@ -121,22 +121,22 @@ def get_user_auth():
 @api.route("/users/auth", methods=["POST"])
 @login_required
 def set_user_auth():
-    """保存实名认证信息"""
+    """Save real-name authentication information"""
     user_id = g.user_id
 
-    # 获取参数
+    # get parameters 
     req_data = request.get_json()
     if not req_data:
-        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+        return jsonify(errno=RET.PARAMERR, errmsg="wrong parameters ")
 
-    real_name = req_data.get("real_name")  # 真实姓名
-    id_card = req_data.get("id_card")  # 身份证号
+    real_name = req_data.get("real_name")  # real name
+    id_card = req_data.get("id_card")  # id number
 
-    # 参数校验
+    # Parameter calibration
     if not all([real_name, id_card]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
 
-    # 保存用户的姓名与身份证号
+    # Save the user's name and ID number
     try:
         User.query.filter_by(id=user_id, real_name=None, id_card=None)\
             .update({"real_name": real_name, "id_card": id_card})
@@ -144,7 +144,7 @@ def set_user_auth():
     except Exception as e:
         current_app.logger.error(e)
         db.session.rollback()
-        return jsonify(errno=RET.DBERR, errmsg="保存用户实名信息失败")
+        return jsonify(errno=RET.DBERR, errmsg="Failed to save user real name information")
 
     return jsonify(errno=RET.OK, errmsg="OK")
 

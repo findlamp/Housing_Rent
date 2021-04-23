@@ -14,20 +14,20 @@ import os
 @api.route("/orders/<int:order_id>/payment", methods=["GET"])
 @login_required
 def order_pay(order_id):
-    """发起支付宝支付"""
+    """pay"""
     user_id = g.user_id
     mobile = ''
-    # 判断订单状态
+    # order status
     try:
         order = Order.query.filter(Order.id == order_id, Order.user_id == user_id, Order.status == "WAIT_PAYMENT").first()
         house = House.query.filter(House.id == order.house_id).first()
         user = User.query.filter(User.id == house.user_id).first()
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+        return jsonify(errno=RET.DBERR, errmsg="Database exception")
 
     if order is None:
-        return jsonify(errno=RET.NODATA, errmsg="订单数据有误")
+        return jsonify(errno=RET.NODATA, errmsg="data information error")
 
     if user is not None:
         mobile = user.mobile
@@ -36,14 +36,14 @@ def order_pay(order_id):
 
 
     '''     
-    # 创建支付宝sdk的工具对象
+    # creat object
     alipay_client = AliPay(
         appid="2016081600258081",
-        app_notify_url=None,  # 默认回调url
-        app_private_key_path=os.path.join(os.path.dirname(__file__), "keys/app_private_key.pem"),  # 私钥
-        alipay_public_key_path=os.path.join(os.path.dirname(__file__), "keys/alipay_public_key.pem"),  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
-        sign_type="RSA2",  # RSA 或者 RSA2
-        debug=True  # 默认False
+        app_notify_url=None,  # return url
+        app_private_key_path=os.path.join(os.path.dirname(__file__), "keys/app_private_key.pem"),  # private key
+        alipay_public_key_path=os.path.join(os.path.dirname(__file__), "keys/alipay_public_key.pem"),  # public key
+        sign_type="RSA2",  # RSA or RSA2
+        debug=True  # False
     )
 
     # 手机网站支付，需要跳转到https://openapi.alipaydev.com/gateway.do? + order_string

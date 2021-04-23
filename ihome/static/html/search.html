@@ -62,10 +62,10 @@
                 <a href="/detail.html?id={{house.house_id}}"><img src="{{house.img_url}}"></a>
                 <div class="house-desc">
                     <div class="landlord-pic"><img src="{{house.user_avatar}}"></div>
-                    <div class="house-price">￥<span>{{(house.price/100.0).toFixed(0)}}</span>/晚</div>
+                    <div class="house-price">$<span>{{(house.price/100.0).toFixed(0)}}</span>/night</div>
                     <div class="house-intro">
                         <span class="house-title">{{house.title}}</span>
-                        <em>出租{{house.room_count}}间 - {{house.order_count}}次入住 - {{house.address}}</em>
+                        <em>rent{{house.room_count}}rooms - {{house.order_count}}orders - {{house.address}}</em>
                     </div>
                 </div>
             </li>

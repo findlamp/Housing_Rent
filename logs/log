@@ -7555,3 +7555,280 @@ INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit
 INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\models.py', reloading
 INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\models.py', reloading
 INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\models.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:26] "[36mGET /search.html?aid=1&aname=oakland&sd=2021-04-27&ed=2021-04-28 HTTP/1.1[0m" 304 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:26] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO log.py:110 SHOW VARIABLES LIKE 'sql_mode'
+INFO log.py:110 ()
+INFO log.py:110 SHOW VARIABLES LIKE 'lower_case_table_names'
+INFO log.py:110 ()
+INFO log.py:110 SELECT DATABASE()
+INFO log.py:110 ()
+INFO log.py:110 show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+INFO log.py:110 ()
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_area_info.create_time AS ih_area_info_create_time, ih_area_info.update_time AS ih_area_info_update_time, ih_area_info.id AS ih_area_info_id, ih_area_info.name AS ih_area_info_name 
+FROM ih_area_info 
+WHERE ih_area_info.id = %s
+INFO log.py:110 ('1',)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:31] "[37mGET /api/v1.0/houses?aid=1&sd=2021-04-27&ed=2021-04-28&sk=new&p=1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:31] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:44] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:262 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:44] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:44] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:47] "[37mGET /my.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:47] "[37mGET /static/css/ihome/my.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:47] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:47] "[37mGET /static/js/ihome/my.js HTTP/1.1[0m" 200 -
+INFO log.py:110 BEGIN (implicit)
+INFO log.py:110 SELECT ih_user_profile.create_time AS ih_user_profile_create_time, ih_user_profile.update_time AS ih_user_profile_update_time, ih_user_profile.id AS ih_user_profile_id, ih_user_profile.name AS ih_user_profile_name, ih_user_profile.password_hash AS ih_user_profile_password_hash, ih_user_profile.mobile AS ih_user_profile_mobile, ih_user_profile.real_name AS ih_user_profile_real_name, ih_user_profile.id_card AS ih_user_profile_id_card, ih_user_profile.avatar_url AS ih_user_profile_avatar_url 
+FROM ih_user_profile 
+WHERE ih_user_profile.id = %s
+INFO log.py:110 (10,)
+INFO log.py:110 ROLLBACK
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:48] "[37mGET /api/v1.0/user HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:51] "[37mDELETE /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:51] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:51] "[37mGET /api/v1.0/session HTTP/1.1[0m" 200 -
+INFO houses.py:262 hit house index info redis
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:51] "[37mGET /api/v1.0/houses/index HTTP/1.1[0m" 200 -
+INFO houses.py:37 hit redis area_info
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:51] "[37mGET /api/v1.0/areas HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [23/Apr/2021 14:30:57] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\urllib\\parse.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\util\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\relationships.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\log.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\redis\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\redis\\client.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\config.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\demo.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\demo.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\json\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\wsgiref\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\orders.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\pay.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\profile.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\libs\\yuntongxun\\CCPRestSDK.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\os.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\typing.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\web_html.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\types.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\flask_sqlalchemy\\model.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\ext\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\ext\\declarative\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\ext\\declarative\\api.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\utils\\commons.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\houses.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\utils\\image_storage.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\utils\\response_code.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\orders.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\orders.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\orders.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\__init__.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\constants.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\json.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\passport.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\functools.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\pay.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\pay.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\pay.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\PIL\\__init__.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\PIL\\Image.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\scoping.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\sqlalchemy\\orm\\session.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\threading.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\models.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\profile.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\profile.py', reloading
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\profile.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\libs\\__init__.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\anaconda3\\Lib\\site-packages\\werkzeug\\security.py', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\__pycache__\\__init__.cpython-38.pyc', reloading
+INFO _internal.py:113  * Restarting with windowsapi reloader
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 682-852-118
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Detected change in 'C:\\Users\\m1585\\Housing_Rent\\ihome\\api_1_0\\__pycache__\\demo.cpython-38.pyc', reloading
