@@ -2,11 +2,11 @@
 
 
 
-# 需要填写你的 Access Key 和 Secret Key
+# enter Access Key and Secret Key
 access_key = 'uzc59bVURbUbazey9vrexXKocNKBUN8NuLijk57N'
 secret_key = '-9lenw28jU2REojvGkcsEPWk5Nm9V2HIVqb5Nkts'
 
-# 重写存储 TODO
+# storage TODO
 def storage(file_data):
     """
     上传文件到七牛

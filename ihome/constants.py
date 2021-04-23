@@ -1,44 +1,44 @@
 # coding:utf-8
 import os
 
-# 图片验证码的redis有效期, 单位：秒
+# The Redis validity period of the image verification code, unit: seconds
 IMAGE_CODE_REDIS_EXPIRES = 180
 
-# 短信验证码的redis有效期, 单位：秒
+# Redis validity period of SMS verification code, unit: second
 SMS_CODE_REDIS_EXPIRES = 300
 
-# 发送短信验证码的间隔, 单位：秒
+# The interval between sending SMS verification code, in seconds
 SEND_SMS_CODE_INTERVAL = 60
 
-# 登录错误尝试次数
+# Number of login error attempts
 LOGIN_ERROR_MAX_TIMES = 5
 
-# 登录错误限制的时间, 单位：秒
+# Login error limit time, in seconds
 LOGIN_ERROR_FORBID_TIME = 600
 
-# 图片地址 暂时不改动Key值
+# The Key value of the picture address will not be changed for the time being
 QINIU_URL_DOMAIN =  '/static/images/'
 
-# 城区信息的缓存时间, 单位：秒
+# Cache time of city information, unit: seconds
 AREA_INFO_REDIS_CACHE_EXPIRES = 7200
 
-# 首页展示最多的房屋数量
+# The home page shows the largest number of homes
 HOME_PAGE_MAX_HOUSES = 5
 
-# 首页房屋数据的Redis缓存时间，单位：秒
+# The Redis cache time of the home page housing data, unit: seconds
 HOME_PAGE_DATA_REDIS_EXPIRES = 7200
 
-# 房屋详情页展示的评论最大数
+# Maximum number of reviews displayed on the house detail page
 HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS = 30
 
-# 房屋详情页面数据Redis缓存时间，单位：秒
+# Housing details page data Redis cache time, unit: seconds
 HOUSE_DETAIL_REDIS_EXPIRE_SECOND = 7200
 
-# 房屋列表页面每页数据容量
+# Housing list page per page data capacity
 HOUSE_LIST_PAGE_CAPACITY = 2
 
-# 房屋列表页面页数缓存时间，单位秒
+# Number of pages in the house list cache time, per second
 HOUES_LIST_PAGE_REDIS_CACHE_EXPIRES = 7200
 
-# 支付宝的网关地址（支付地址域名）
+# Alipay gateway address (payment address domain name)
 ALIPAY_URL_PREFIX = "https://openapi.alipaydev.com/gateway.do?"

@@ -11,65 +11,67 @@ import logging
 from logging.handlers import RotatingFileHandler
 from ihome.utils.commons import ReConverter
 
-#初始化数据库
+#initialized database
 from sqlalchemy import Column, String, create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-# 数据库
+# database
 db = SQLAlchemy()
 
-# 创建redis连接对象
+# Create a Redis connection object
 redis_store = None
 
-# 配置日志信息
-# 设置日志的记录等级
+# Configuration log information
+# Sets the logging level of the log
 logging.basicConfig(level=logging.INFO)
-# 创建日志记录器，指明日志保存的路径、每个日志文件的最大大小、保存的日志文件个数上限
+# Creates a logger that specifies the path to save the log, the maximum size of each log file
+#  and the upper limit on the number of log files saved
 file_log_handler = RotatingFileHandler("logs/log", maxBytes=1024*1024*100, backupCount=10)
-# 创建日志记录的格式                 日志等级    输入日志信息的文件名 行数    日志信息
+# Creates a format log level for logging records
+# Enter the file name of the log message
 formatter = logging.Formatter('%(levelname)s %(filename)s:%(lineno)d %(message)s')
-# 为刚创建的日志记录器设置日志记录格式
+# Set the logging format for the logger you just created
 file_log_handler.setFormatter(formatter)
-# 为全局的日志工具对象（flask app使用的）添加日记录器
+# Add a day logger to the global logging tool object used by the Flask app
 logging.getLogger().addHandler(file_log_handler)
 
 
-# 工厂模式
+# factory pattern
 def create_app(config_name):
     """
-    创建flask的应用对象
-    :param config_name: str  配置模式的模式的名字 （"develop",  "product"）
+    Create FLASK's application object
+    :param config_name: str  The name of the pattern that configures the pattern （"develop",  "product"）
     :return:
     """
     app = Flask(__name__)
 
-    # 根据配置模式的名字获取配置参数的类
+    # The class that gets the configuration parameters based on the name of the configuration pattern
     config_class = config_map.get(config_name)
     app.config.from_object(config_class)
 
-    # 使用app初始化db
+    # Initialize DB with app
     db.init_app(app)
 
     
-    # 初始化redis工具
+    # Initialize redis
     global redis_store
     redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT)
 
-    # 利用flask-session，将session数据保存到redis中
+    # Use flask-session to save session data to Redis
     Session(app)
 
-    # 为flask补充csrf防护
+    # Add CSRF protection to flask
     CSRFProtect(app)
 
-    # 为flask添加自定义的转换器
+    # Add a custom converter for the flask
     app.url_map.converters["re"] = ReConverter
 
-    # 注册蓝图
+    # Registered blueprint
     from ihome import api_1_0
     app.register_blueprint(api_1_0.api, url_prefix="/api/v1.0")
 
-    # 注册提供静态文件的蓝图
+    # Register blueprints that provide static file
     from ihome import web_html
     app.register_blueprint(web_html.html)
 
