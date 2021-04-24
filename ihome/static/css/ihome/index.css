@@ -29,6 +29,7 @@ body {
     margin-right: 10px;
 }
 .top-btn, .top-btn:hover {
+    width:80px;
     height: 40px;
     line-height: 28px;
     font-size: 8px;

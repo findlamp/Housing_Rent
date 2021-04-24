@@ -40,5 +40,4 @@ HOUSE_LIST_PAGE_CAPACITY = 2
 # Number of pages in the house list cache time, per second
 HOUES_LIST_PAGE_REDIS_CACHE_EXPIRES = 7200
 
-# Alipay gateway address (payment address domain name)
-ALIPAY_URL_PREFIX = "https://openapi.alipaydev.com/gateway.do?"
+

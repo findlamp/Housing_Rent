@@ -36,46 +36,6 @@ def register():
     if password != password2:
         return jsonify(errno=RET.PARAMERR, errmsg="The two passwords don't match")
 
-    # Retrieve SMS verification code from Redis
-    '''
-    try:
-        real_sms_code = redis_store.get("sms_code_%s" % mobile)
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR, errmsg="Error reading real SMS CAPTCHA")
-
-    # Determine whether the SMS verification code is expired
-    if real_sms_code is None:
-        return jsonify(errno=RET.NODATA, errmsg="The SMS verification code is invalid")
-
-    # Remove SMS verification codes in Redis to prevent duplicate validation
-    try:
-        redis_store.delete("sms_code_%s" % mobile)
-    except Exception as e:
-        current_app.logger.error(e)
-
-    # Judge the correctness of the short message verification code filled by the user
-    if real_sms_code != sms_code:
-        return jsonify(errno=RET.DATAERR, errmsg="SMS verification code error")
-    '''
-    # Determine whether the user's mobile phone number has been registered
-    # try:
-    #     user = User.query.filter_by(mobile=mobile).first()
-    # except Exception as e:
-    #     current_app.logger.error(e)
-    #     return jsonify(errno=RET.DBERR, errmsg="Database exception")
-    # else:
-    #     if user is not None:
-    #         # existent phone number
-    #         return jsonify(errno=RET.DATAEXIST, errmsg="existent phone number")
-
-    #    salt
-
-    #  signup
-    #  user1   password="123456" + "abc"   sha1   abc$hxosifodfdoshfosdhfso
-    #  user2   password="123456" + "def"   sha1   def$dfhsoicoshdoshfosidfs
-    #
-    # login  password ="123456"  "abc"  sha256      sha1   hxosufodsofdihsofho
 
     # Save the user's registration data to the database
     user = User(name=mobile, mobile=mobile)
@@ -120,11 +80,11 @@ def login():
 
     # check parameters
     if not all([mobile, password]):
-        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+        return jsonify(errno=RET.PARAMERR, errmsg="Parameter Incomplete")
 
     # phone number format
     if not re.match(r"1[34578]\d{9}", mobile):
-        return jsonify(errno=RET.PARAMERR, errmsg="手机号格式错误")
+        return jsonify(errno=RET.PARAMERR, errmsg="The format of mobile phone number is wrong")
 
     # Determine if the number of errors exceeded the limit
     user_ip = request.remote_addr  # ip address
